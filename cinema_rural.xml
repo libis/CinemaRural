@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <profile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="profile.xsd" useForConfiguration="1" base="base" infoUrl="">
   <profileName>Cinema Rural</profileName>
-  <profileDescription>Profiel aangemaakt op 23 april 2020 om 7:54:52 door CollectiveAccess Administrator</profileDescription>
+  <profileDescription>Profiel aangemaakt op 12 oktober 2020 om 14:43:43 door CollectiveAccess Administrator</profileDescription>
   <locales>
     <locale lang="en" country="US">English (US)</locale>
     <locale lang="nl" country="NL" dontUseForCataloguing="1">Nederlands</locale>
@@ -46,7 +46,7 @@
           <labels>
             <label locale="en_US" preferred="1">
               <name_singular>guide term</name_singular>
-              <name_plural>guide termer</name_plural>
+              <name_plural>guide terms</name_plural>
               <description/>
             </label>
           </labels>
@@ -57,23 +57,6 @@
               <name_singular>hierarchy name</name_singular>
               <name_plural>hierarchy names</name_plural>
               <description/>
-            </label>
-          </labels>
-        </item>
-      </items>
-    </list>
-    <list code="list_item_sources" hierarchical="1" system="0" vocabulary="0">
-      <labels>
-        <label locale="en_US">
-          <name>List item sources</name>
-        </label>
-      </labels>
-      <items>
-        <item idno="local" enabled="1" default="0" value="local" rank="0">
-          <labels>
-            <label locale="en_US" preferred="1">
-              <name_singular>Local</name_singular>
-              <name_plural>Local</name_plural>
               <description/>
             </label>
           </labels>
@@ -118,7 +101,7 @@
           <labels>
             <label locale="en_US" preferred="1">
               <name_singular>User set</name_singular>
-              <name_plural>User set</name_plural>
+              <name_plural>User sets</name_plural>
               <description/>
             </label>
           </labels>
@@ -127,7 +110,7 @@
           <labels>
             <label locale="en_US" preferred="1">
               <name_singular>Public presentation</name_singular>
-              <name_plural>Public presentation</name_plural>
+              <name_plural>Public presentations</name_plural>
               <description/>
             </label>
           </labels>
@@ -1711,7 +1694,7 @@
             <label locale="en_US" preferred="1">
               <name_singular>In Copyright</name_singular>
               <name_plural>In Copyright</name_plural>
-              <description/>
+              <description>Item protected by copyright and/or related rights</description>
             </label>
           </labels>
         </item>
@@ -1723,9 +1706,9 @@
               <description/>
             </label>
             <label locale="en_US" preferred="1">
-              <name_singular>Unknown Rightsholder</name_singular>
-              <name_plural>Unknown Rightsholder</name_plural>
-              <description/>
+              <name_singular>In Copyright - Unknown Rightsholder</name_singular>
+              <name_plural>In Copyright - Unknown Rightsholder</name_plural>
+              <description>This Item is protected by copyright and/or related rights. However, for this Item, either no rights-holder(s) have been identified or one or more rights-holder(s) have been identified but none have been located. You are free to use this Item in any way that is permitted by the copyright and related rights legislation that applies to your use.</description>
             </label>
           </labels>
         </item>
@@ -1739,7 +1722,7 @@
             <label locale="en_US" preferred="1">
               <name_singular>Copyright Undetermined</name_singular>
               <name_plural>Copyright Undetermined</name_plural>
-              <description/>
+              <description>The copyright and related rights status of this Item has been reviewed by the organization that has made the Item available, but the organization was unable to make a conclusive determination as to the copyright status of the Item.</description>
             </label>
           </labels>
         </item>
@@ -1753,7 +1736,7 @@
             <label locale="en_US" preferred="1">
               <name_singular>No Known Copyright</name_singular>
               <name_plural>No Known Copyright</name_plural>
-              <description/>
+              <description>Item is not restricted by copyright or related rights, but a conclusive determination could not be made.</description>
             </label>
           </labels>
         </item>
@@ -1765,9 +1748,9 @@
               <description/>
             </label>
             <label locale="en_US" preferred="1">
-              <name_singular>Copyright Non-Commercial</name_singular>
-              <name_plural>Copyright Non-Commercial</name_plural>
-              <description/>
+              <name_singular>In Copyright - Non-commercial Use Permitted</name_singular>
+              <name_plural>In Copyright - Non-commercial Use Permitted</name_plural>
+              <description>Item is protected by copyright and/or related rights. No permission is required from the rights-holder(s) for non-commercial uses.</description>
             </label>
           </labels>
         </item>
@@ -1781,7 +1764,35 @@
             <label locale="en_US" preferred="1">
               <name_singular>Public Domain</name_singular>
               <name_plural>Public Domain</name_plural>
+              <description>This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.</description>
+            </label>
+          </labels>
+        </item>
+        <item idno="rights_statement_in_copy_educ" enabled="1" default="0" type="concept">
+          <labels>
+            <label locale="en_US" preferred="0">
+              <name_singular>http://rightsstatements.org/vocab/InC-EDU/1.0/</name_singular>
+              <name_plural>http://rightsstatements.org/vocab/InC-EDU/1.0/</name_plural>
               <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>In Copyright - Educational Use Permitted</name_singular>
+              <name_plural>In Copyright - Educational Use Permitted</name_plural>
+              <description>This Item is protected by copyright and/or related rights. You are free to use this Item in any way that is permitted by the copyright and related rights legislation that applies to your use. In addition, no permission is required from the rights-holder(s) for educational uses. For other uses, you need to obtain permission from the rights-holder(s).</description>
+            </label>
+          </labels>
+        </item>
+        <item idno="rights_statement_copy_orphan" enabled="1" default="0" type="concept">
+          <labels>
+            <label locale="en_US" preferred="0">
+              <name_singular>https://rightsstatements.org/page/InC-OW-EU/1.0/</name_singular>
+              <name_plural>https://rightsstatements.org/page/InC-OW-EU/1.0/</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>In Copyright - EU Orphan Work</name_singular>
+              <name_plural>In Copyright - EU Orphan Work</name_plural>
+              <description>No rights-holder(s) have been identified or one or more rights-holder(s) have been identified but none have been located even though a diligent search for the rights-holder(s) has been conducted. The results of the diligent search are available in the EU Orphan Works Database. You are free to use this Item in any way that is permitted by the copyright and related rights legislation that applies to your use.</description>
             </label>
           </labels>
         </item>
@@ -1796,18 +1807,28 @@
       <items>
         <item idno="Yes" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Ja</name_singular>
               <name_plural>Ja</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Yes</name_singular>
+              <name_plural>Yes</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="No" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Nee</name_singular>
               <name_plural>Nee</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>No</name_singular>
+              <name_plural>No</name_plural>
               <description/>
             </label>
           </labels>
@@ -1823,7 +1844,12 @@
       <items>
         <item idno="Audio" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="1">
+            <label locale="nl_NL" preferred="1">
+              <name_singular>Audio</name_singular>
+              <name_plural>Audio</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="0">
               <name_singular>Audio</name_singular>
               <name_plural>Audio</name_plural>
               <description/>
@@ -1832,8 +1858,13 @@
         </item>
         <item idno="Digital_File" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Digitaal Bestand</name_singular>
+              <name_plural>Digitaal Bestand</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Digital File</name_singular>
               <name_plural>Digitaal Bestand</name_plural>
               <description/>
             </label>
@@ -1841,7 +1872,12 @@
         </item>
         <item idno="Film" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="1">
+            <label locale="nl_NL" preferred="1">
+              <name_singular>Film</name_singular>
+              <name_plural>Film</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="0">
               <name_singular>Film</name_singular>
               <name_plural>Film</name_plural>
               <description/>
@@ -1850,6 +1886,11 @@
         </item>
         <item idno="Optical" enabled="1" default="0" type="concept">
           <labels>
+            <label locale="nl_NL" preferred="1">
+              <name_singular>Optical</name_singular>
+              <name_plural>Optisch</name_plural>
+              <description/>
+            </label>
             <label locale="en_US" preferred="0">
               <name_singular>Optisch</name_singular>
               <name_plural>Optisch</name_plural>
@@ -1859,7 +1900,12 @@
         </item>
         <item idno="Tape" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="1">
+            <label locale="nl_NL" preferred="1">
+              <name_singular>Tape</name_singular>
+              <name_plural>Tape</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="0">
               <name_singular>Tape</name_singular>
               <name_plural>Tape</name_plural>
               <description/>
@@ -1868,8 +1914,13 @@
         </item>
         <item idno="Duplicate_Negative" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Duplicaat Negatief</name_singular>
+              <name_plural>Duplicaat Negatief</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Duplicate Negative</name_singular>
               <name_plural>Duplicaat Negatief</name_plural>
               <description/>
             </label>
@@ -1877,6 +1928,11 @@
         </item>
         <item idno="Original_Negative" enabled="1" default="0" type="concept">
           <labels>
+            <label locale="nl_NL" preferred="1">
+              <name_singular>Original Negative</name_singular>
+              <name_plural>Origineel Negatief</name_plural>
+              <description/>
+            </label>
             <label locale="en_US" preferred="0">
               <name_singular>Origineel Negatief</name_singular>
               <name_plural>Origineel Negatief</name_plural>
@@ -1886,6 +1942,11 @@
         </item>
         <item idno="Original_Positive" enabled="1" default="0" type="concept">
           <labels>
+            <label locale="nl_NL" preferred="1">
+              <name_singular>Original Positive</name_singular>
+              <name_plural>Origineel Positief</name_plural>
+              <description/>
+            </label>
             <label locale="en_US" preferred="0">
               <name_singular>Origineel Positief</name_singular>
               <name_plural>Origineel Positief</name_plural>
@@ -1904,8 +1965,13 @@
       <items>
         <item idno="Animation" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Animatie</name_singular>
+              <name_plural>Animatie</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Animation</name_singular>
               <name_plural>Animatie</name_plural>
               <description/>
             </label>
@@ -1913,6 +1979,11 @@
         </item>
         <item idno="Assistant_Director" enabled="1" default="0" type="concept">
           <labels>
+            <label locale="nl_NL" preferred="1">
+              <name_singular>Assistant Director</name_singular>
+              <name_plural>Regie-Assistent</name_plural>
+              <description/>
+            </label>
             <label locale="en_US" preferred="0">
               <name_singular>Regie-Assistent</name_singular>
               <name_plural>Regie-Assistent</name_plural>
@@ -1922,6 +1993,11 @@
         </item>
         <item idno="Associate_Producer" enabled="1" default="0" type="concept">
           <labels>
+            <label locale="nl_NL" preferred="1">
+              <name_singular>Associate Producer</name_singular>
+              <name_plural>Partner Producent</name_plural>
+              <description/>
+            </label>
             <label locale="en_US" preferred="0">
               <name_singular>Partner Producent</name_singular>
               <name_plural>Partner Producent</name_plural>
@@ -1931,6 +2007,11 @@
         </item>
         <item idno="Belgian_Distributor" enabled="1" default="0" type="concept">
           <labels>
+            <label locale="nl_NL" preferred="1">
+              <name_singular>Belgian Distributor</name_singular>
+              <name_plural>Belgische Distributeur</name_plural>
+              <description/>
+            </label>
             <label locale="en_US" preferred="0">
               <name_singular>Belgische Distributeur</name_singular>
               <name_plural>Belgische Distributeur</name_plural>
@@ -1940,6 +2021,11 @@
         </item>
         <item idno="Broadcaster" enabled="1" default="0" type="concept">
           <labels>
+            <label locale="nl_NL" preferred="1">
+              <name_singular>Broadcaster</name_singular>
+              <name_plural>Omroep</name_plural>
+              <description/>
+            </label>
             <label locale="en_US" preferred="0">
               <name_singular>Omroep</name_singular>
               <name_plural>Omroep</name_plural>
@@ -1949,6 +2035,11 @@
         </item>
         <item idno="Camera_Operator" enabled="1" default="0" type="concept">
           <labels>
+            <label locale="nl_NL" preferred="1">
+              <name_singular>Camera Operator</name_singular>
+              <name_plural>Cameraman</name_plural>
+              <description/>
+            </label>
             <label locale="en_US" preferred="0">
               <name_singular>Cameraman</name_singular>
               <name_plural>Cameraman</name_plural>
@@ -1958,6 +2049,11 @@
         </item>
         <item idno="Cast" enabled="1" default="0" type="concept">
           <labels>
+            <label locale="nl_NL" preferred="1">
+              <name_singular>Cast</name_singular>
+              <name_plural>Rolverdeling</name_plural>
+              <description/>
+            </label>
             <label locale="en_US" preferred="0">
               <name_singular>Rolverdeling</name_singular>
               <name_plural>Rolverdeling</name_plural>
@@ -1967,17 +2063,27 @@
         </item>
         <item idno="Co_Producer" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Co-producent</name_singular>
               <name_plural>Co-producent</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Co-Producer</name_singular>
+              <name_plural>Co-Producent</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Commentary" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Commentaar</name_singular>
+              <name_plural>Commentaar</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Commentary</name_singular>
               <name_plural>Commentaar</name_plural>
               <description/>
             </label>
@@ -1985,8 +2091,13 @@
         </item>
         <item idno="Depositor" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Bewaargever</name_singular>
+              <name_plural>Bewaargever</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Depositor</name_singular>
               <name_plural>Bewaargever</name_plural>
               <description/>
             </label>
@@ -1994,8 +2105,13 @@
         </item>
         <item idno="Director_Of_Photography" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Cameraregisseur </name_singular>
+              <name_plural>Cameraregisseur </name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Director Of Photography</name_singular>
               <name_plural>Cameraregisseur </name_plural>
               <description/>
             </label>
@@ -2003,7 +2119,12 @@
         </item>
         <item idno="Distributor" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Distributor</name_singular>
+              <name_plural>Verdeler</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Verdeler</name_singular>
               <name_plural>Verdeler</name_plural>
               <description/>
@@ -2012,7 +2133,12 @@
         </item>
         <item idno="Editor" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Editor</name_singular>
+              <name_plural>Redacteur</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Redacteur</name_singular>
               <name_plural>Redacteur</name_plural>
               <description/>
@@ -2021,7 +2147,12 @@
         </item>
         <item idno="Executive_Producer" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Executive Producer</name_singular>
+              <name_plural>Uitvoerend Producent</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Uitvoerend Producent</name_singular>
               <name_plural>Uitvoerend Producent</name_plural>
               <description/>
@@ -2035,12 +2166,22 @@
               <name_plural>Expert</name_plural>
               <description/>
             </label>
+            <label locale="nl_NL" preferred="0">
+              <name_singular>Expert</name_singular>
+              <name_plural>Expert</name_plural>
+              <description/>
+            </label>
           </labels>
         </item>
         <item idno="Holding_Institution" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Bewaarinstelling</name_singular>
+              <name_plural>Bewaarinstelling</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Holding Institution</name_singular>
               <name_plural>Bewaarinstelling</name_plural>
               <description/>
             </label>
@@ -2048,8 +2189,13 @@
         </item>
         <item idno="Laboratory" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Laboratorium</name_singular>
+              <name_plural>Laboratorium</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Laboratory</name_singular>
               <name_plural>Laboratorium</name_plural>
               <description/>
             </label>
@@ -2057,7 +2203,12 @@
         </item>
         <item idno="Musician" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Musician</name_singular>
+              <name_plural>Musicus</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Musicus</name_singular>
               <name_plural>Musicus</name_plural>
               <description/>
@@ -2066,8 +2217,13 @@
         </item>
         <item idno="Not_Identified" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Niet Geïdentificeerd</name_singular>
+              <name_plural>Niet Geïdentificeerd</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Not Identified</name_singular>
               <name_plural>Niet Geïdentificeerd</name_plural>
               <description/>
             </label>
@@ -2075,8 +2231,13 @@
         </item>
         <item idno="Other" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Ander</name_singular>
+              <name_plural>Ander</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Other</name_singular>
               <name_plural>Ander</name_plural>
               <description/>
             </label>
@@ -2084,8 +2245,13 @@
         </item>
         <item idno="Production_Assistant" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Productie Assistent</name_singular>
+              <name_plural>Productie Assistent</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Production Assistant</name_singular>
               <name_plural>Productie Assistent</name_plural>
               <description/>
             </label>
@@ -2093,8 +2259,13 @@
         </item>
         <item idno="Production_Company" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Productiehuis</name_singular>
+              <name_plural>Productiehuis</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Production Company</name_singular>
               <name_plural>Productiehuis</name_plural>
               <description/>
             </label>
@@ -2102,8 +2273,13 @@
         </item>
         <item idno="Production_Manager" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Productie Manager</name_singular>
+              <name_plural>Productie Manager</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Production Manager</name_singular>
               <name_plural>Productie Manager</name_plural>
               <description/>
             </label>
@@ -2111,7 +2287,12 @@
         </item>
         <item idno="Publisher" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Publisher</name_singular>
+              <name_plural>Uitgever</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Uitgever</name_singular>
               <name_plural>Uitgever</name_plural>
               <description/>
@@ -2120,7 +2301,12 @@
         </item>
         <item idno="Scientific_Expert" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Scientific Expert</name_singular>
+              <name_plural>Wetenschappelijk Expert</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Wetenschappelijk Expert</name_singular>
               <name_plural>Wetenschappelijk Expert</name_plural>
               <description/>
@@ -2129,8 +2315,13 @@
         </item>
         <item idno="Screenplay" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Scenario</name_singular>
+              <name_plural>Scenario</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Screenplay</name_singular>
               <name_plural>Scenario</name_plural>
               <description/>
             </label>
@@ -2138,8 +2329,13 @@
         </item>
         <item idno="Script" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Draaiboek</name_singular>
+              <name_plural>Draaiboek</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Script</name_singular>
               <name_plural>Draaiboek</name_plural>
               <description/>
             </label>
@@ -2147,8 +2343,13 @@
         </item>
         <item idno="Sound" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Geluid</name_singular>
+              <name_plural>Geluid</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Sound</name_singular>
               <name_plural>Geluid</name_plural>
               <description/>
             </label>
@@ -2156,7 +2357,12 @@
         </item>
         <item idno="Technical_Director" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Technical Director</name_singular>
+              <name_plural>Technisch Directeur</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Technisch Directeur</name_singular>
               <name_plural>Technisch Directeur</name_plural>
               <description/>
@@ -2165,8 +2371,13 @@
         </item>
         <item idno="Unclear_Or_Undetermined" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Onduidelijk of Onbepaald</name_singular>
+              <name_plural>Onduidelijk of Onbepaald</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Unclear Or Undetermined</name_singular>
               <name_plural>Onduidelijk of Onbepaald</name_plural>
               <description/>
             </label>
@@ -2174,8 +2385,13 @@
         </item>
         <item idno="Actor" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Acteur</name_singular>
+              <name_plural>Acteur</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Actor</name_singular>
               <name_plural>Acteur</name_plural>
               <description/>
             </label>
@@ -2183,8 +2399,13 @@
         </item>
         <item idno="Production_Leader" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Productieleider</name_singular>
+              <name_plural>Productieleider</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Production Leader</name_singular>
               <name_plural>Productieleider</name_plural>
               <description/>
             </label>
@@ -2192,8 +2413,13 @@
         </item>
         <item idno="Unknown" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Onbekend</name_singular>
+              <name_plural>Onbekend</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Unknown</name_singular>
               <name_plural>Onbekend</name_plural>
               <description/>
             </label>
@@ -2201,7 +2427,12 @@
         </item>
         <item idno="Technical_Advisor" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Technical Advisor</name_singular>
+              <name_plural>Technisch Adviseur</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Technisch Adviseur</name_singular>
               <name_plural>Technisch Adviseur</name_plural>
               <description/>
@@ -2210,7 +2441,12 @@
         </item>
         <item idno="Technical_Assistant" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Technical Assistant</name_singular>
+              <name_plural>Technisch Assistent</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Technisch Assistent</name_singular>
               <name_plural>Technisch Assistent</name_plural>
               <description/>
@@ -2219,7 +2455,12 @@
         </item>
         <item idno="Technical_Expert" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Technical Expert</name_singular>
+              <name_plural>Technisch Expert</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Technisch Expert</name_singular>
               <name_plural>Technisch Expert</name_plural>
               <description/>
@@ -2381,15 +2622,25 @@
       <items>
         <item idno="Good" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Goed</name_singular>
               <name_plural>Goed</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Good</name_singular>
+              <name_plural>Good</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Reasonable" enabled="1" default="0" type="concept">
           <labels>
+            <label locale="nl_NL" preferred="1">
+              <name_singular>Reasonable</name_singular>
+              <name_plural>Reasonable</name_plural>
+              <description/>
+            </label>
             <label locale="en_US" preferred="0">
               <name_singular>Redelijk</name_singular>
               <name_plural>Redelijk</name_plural>
@@ -2399,16 +2650,26 @@
         </item>
         <item idno="Mediocre" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Matig</name_singular>
               <name_plural>Matig</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Mediocre</name_singular>
+              <name_plural>Mediocre</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Bad" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Bad</name_singular>
+              <name_plural>Bad</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Slecht</name_singular>
               <name_plural>Slecht</name_plural>
               <description/>
@@ -2426,7 +2687,12 @@
       <items>
         <item idno="Advertising" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Advertising</name_singular>
+              <name_plural>Advertising</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Reclame</name_singular>
               <name_plural>Reclame</name_plural>
               <description/>
@@ -2435,7 +2701,12 @@
         </item>
         <item idno="Amateur_Film" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Amateur Film</name_singular>
+              <name_plural>Amateur Film</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Amateurfilm</name_singular>
               <name_plural>Amateurfilm</name_plural>
               <description/>
@@ -2444,7 +2715,12 @@
         </item>
         <item idno="Animated_Cartoon" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Animated Cartoon</name_singular>
+              <name_plural>Animated Cartoon</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Geanimeerde cartoon</name_singular>
               <name_plural>Geanimeerde cartoon</name_plural>
               <description/>
@@ -2453,52 +2729,82 @@
         </item>
         <item idno="Biographical_Film" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Biografische film</name_singular>
               <name_plural>Biografische film</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Biographical Film</name_singular>
+              <name_plural>Biographical Film</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Compilation_Film" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Compilatiefilm</name_singular>
               <name_plural>Compilatiefilm</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Compilation Film</name_singular>
+              <name_plural>Compilation Film</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Corporate_Video" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Bedrijfsvideo</name_singular>
               <name_plural>Bedrijfsvideo</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Corporate Video</name_singular>
+              <name_plural>Corporate Video</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Documentary_Film" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Documentaire</name_singular>
               <name_plural>Documentaire</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Documentary Film</name_singular>
+              <name_plural>Documentary Film</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Educational_Film" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Educatieve film</name_singular>
               <name_plural>Educatieve film</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Educational Film</name_singular>
+              <name_plural>Educational Film</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Ethnographic_Film" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Ethnographic Film</name_singular>
+              <name_plural>Ethnographic Film</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Etnografische film</name_singular>
               <name_plural>Etnografische film</name_plural>
               <description/>
@@ -2507,16 +2813,26 @@
         </item>
         <item idno="Fragments" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Fragmenten</name_singular>
               <name_plural>Fragmenten</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Fragments</name_singular>
+              <name_plural>Fragments</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Historical_Film" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Historical Film</name_singular>
+              <name_plural>Historical Film</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Historische film</name_singular>
               <name_plural>Historische film</name_plural>
               <description/>
@@ -2525,7 +2841,12 @@
         </item>
         <item idno="Home_Movies" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Home Movies</name_singular>
+              <name_plural>Home Movies</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Homevideo</name_singular>
               <name_plural>Homevideo</name_plural>
               <description/>
@@ -2534,7 +2855,12 @@
         </item>
         <item idno="Industrial_Film" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Industrial Film</name_singular>
+              <name_plural>Industrial Film</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Industriële film</name_singular>
               <name_plural>Industriële film</name_plural>
               <description/>
@@ -2543,16 +2869,26 @@
         </item>
         <item idno="Information_Film" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Informatiefilm</name_singular>
               <name_plural>Informatiefilm</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Information Film</name_singular>
+              <name_plural>Information Film</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Militant_Film" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Militant Film</name_singular>
+              <name_plural>Militant Film</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Militantenfilm</name_singular>
               <name_plural>Militantenfilm</name_plural>
               <description/>
@@ -2561,25 +2897,40 @@
         </item>
         <item idno="Newsreel" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Bioscoopjournaal</name_singular>
               <name_plural>Bioscoopjournaal</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Newsreel</name_singular>
+              <name_plural>Newsreel</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Promotional_Film" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Promotiefilm</name_singular>
               <name_plural>Promotiefilm</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Promotional Film</name_singular>
+              <name_plural>Promotional Film</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Propaganda_Film" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Propaganda Film</name_singular>
+              <name_plural>Propaganda Film</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Propagandafilm</name_singular>
               <name_plural>Propagandafilm</name_plural>
               <description/>
@@ -2588,7 +2939,12 @@
         </item>
         <item idno="Public_Information_Film" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Public Information Film</name_singular>
+              <name_plural>Public Information Film</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Publieke voorlichtingsfilm</name_singular>
               <name_plural>Publieke voorlichtingsfilm</name_plural>
               <description/>
@@ -2597,6 +2953,11 @@
         </item>
         <item idno="Reportage" enabled="1" default="0" type="concept">
           <labels>
+            <label locale="nl_NL" preferred="1">
+              <name_singular>Reportage</name_singular>
+              <name_plural>Reportage</name_plural>
+              <description/>
+            </label>
             <label locale="en_US" preferred="0">
               <name_singular>Reportage</name_singular>
               <name_plural>Reportage</name_plural>
@@ -2606,7 +2967,12 @@
         </item>
         <item idno="Scientific_Film" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Scientific Film</name_singular>
+              <name_plural>Scientific Film</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Wetenschapsfilm</name_singular>
               <name_plural>Wetenschapsfilm</name_plural>
               <description/>
@@ -2615,54 +2981,84 @@
         </item>
         <item idno="Sponsored_Film" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Gesponsorde film</name_singular>
               <name_plural>Gesponsorde film</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Sponsored Film</name_singular>
+              <name_plural>Sponsored Film</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Television_Program" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Televisieprogramma</name_singular>
               <name_plural>Televisieprogramma</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Television Program</name_singular>
+              <name_plural>Television Program</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Tourist_Film" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Toeristenfilm</name_singular>
               <name_plural>Toeristenfilm</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Tourist Film</name_singular>
+              <name_plural>Tourist Film</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Travel_Documentary" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Reisdocumentaire</name_singular>
               <name_plural>Reisdocumentaire</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Travel Documentary</name_singular>
+              <name_plural>Travel Documentary</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Unedited_Fragments" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Onbewerkte fragmenten</name_singular>
               <name_plural>Onbewerkte fragmenten</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Unedited Fragments</name_singular>
+              <name_plural>Unedited Fragments</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Unfinished_Film" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Onafgewerkte film</name_singular>
               <name_plural>Onafgewerkte film</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Unfinished Film</name_singular>
+              <name_plural>Unfinished Film</name_plural>
               <description/>
             </label>
           </labels>
@@ -2710,10 +3106,20 @@
               <name_plural>http://rightsstatements.org/vocab/UND/1.0/</name_plural>
               <description/>
             </label>
+            <label locale="en_US" preferred="0">
+              <name_singular>http://rightsstatements.org/vocab/UND/1.0/</name_singular>
+              <name_plural>http://rightsstatements.org/vocab/UND/1.0/</name_plural>
+              <description/>
+            </label>
           </labels>
         </item>
         <item idno="In_Copyright" enabled="1" default="1" type="concept">
           <labels>
+            <label locale="en_US" preferred="0">
+              <name_singular>http://rightsstatements.org/vocab/InC/1.0/</name_singular>
+              <name_plural>http://rightsstatements.org/vocab/InC/1.0/</name_plural>
+              <description/>
+            </label>
             <label locale="en_US" preferred="1">
               <name_singular>In Copyright</name_singular>
               <name_plural>http://rightsstatements.org/vocab/InC/1.0/</name_plural>
@@ -2723,6 +3129,11 @@
         </item>
         <item idno="No_Known_Copyright" enabled="1" default="0" type="concept">
           <labels>
+            <label locale="en_US" preferred="0">
+              <name_singular>http://rightsstatements.org/vocab/NKC/1.0/</name_singular>
+              <name_plural>http://rightsstatements.org/vocab/NKC/1.0/</name_plural>
+              <description/>
+            </label>
             <label locale="en_US" preferred="1">
               <name_singular>No Known Copyright</name_singular>
               <name_plural>http://rightsstatements.org/vocab/NKC/1.0/</name_plural>
@@ -2732,6 +3143,11 @@
         </item>
         <item idno="Public_Domain" enabled="1" default="0" type="concept">
           <labels>
+            <label locale="en_US" preferred="0">
+              <name_singular>https://creativecommons.org/publicdomain/mark/1.0/</name_singular>
+              <name_plural>https://creativecommons.org/publicdomain/mark/1.0/</name_plural>
+              <description/>
+            </label>
             <label locale="en_US" preferred="1">
               <name_singular>Public Domain</name_singular>
               <name_plural>https://creativecommons.org/publicdomain/mark/1.0/</name_plural>
@@ -2750,7 +3166,12 @@
       <items>
         <item idno="Agriculture" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Agriculture</name_singular>
+              <name_plural>Agriculture</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Landbouw</name_singular>
               <name_plural>Landbouw</name_plural>
               <description/>
@@ -2759,7 +3180,12 @@
         </item>
         <item idno="Manufacturing_Industry" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Manufacturing/Industry</name_singular>
+              <name_plural>Manufacturing/Industry</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Productie/Industrie</name_singular>
               <name_plural>Productie/Industrie</name_plural>
               <description/>
@@ -2768,34 +3194,54 @@
         </item>
         <item idno="Retail_Trade" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Kleinhandel</name_singular>
               <name_plural>Kleinhandel</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Retail Trade</name_singular>
+              <name_plural>Retail Trade</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Services" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Diensten</name_singular>
               <name_plural>Diensten</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Services</name_singular>
+              <name_plural>Services</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Domestic_Economy" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Binnenlandse economie</name_singular>
               <name_plural>Binnenlandse economie</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Domestic Economy</name_singular>
+              <name_plural>Domestic Economy</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Church" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Church</name_singular>
+              <name_plural>Church</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Kerk</name_singular>
               <name_plural>Kerk</name_plural>
               <description/>
@@ -2804,16 +3250,26 @@
         </item>
         <item idno="School_Education" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>School/Educatie</name_singular>
               <name_plural>School/Educatie</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>School/Education</name_singular>
+              <name_plural>School/Education</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Extension_Services" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Extension Services</name_singular>
+              <name_plural>Extension Services</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Uitbreidingsdiensten</name_singular>
               <name_plural>Uitbreidingsdiensten</name_plural>
               <description/>
@@ -2822,7 +3278,12 @@
         </item>
         <item idno="Science" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Science</name_singular>
+              <name_plural>Science</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Wetenschap</name_singular>
               <name_plural>Wetenschap</name_plural>
               <description/>
@@ -2831,7 +3292,12 @@
         </item>
         <item idno="Government_Policy" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Government Policy</name_singular>
+              <name_plural>Government Policy</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Overheidsbeleid</name_singular>
               <name_plural>Overheidsbeleid</name_plural>
               <description/>
@@ -2840,7 +3306,12 @@
         </item>
         <item idno="Law_And_Legislation" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Law And Legislation</name_singular>
+              <name_plural>Law And Legislation</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Wet en wetgeving</name_singular>
               <name_plural>Wet en wetgeving</name_plural>
               <description/>
@@ -2849,34 +3320,54 @@
         </item>
         <item idno="Sparsely_Populated_Areas" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Dunbevolkte gebieden</name_singular>
               <name_plural>Dunbevolkte gebieden</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Sparsely Populated Areas</name_singular>
+              <name_plural>Sparsely Populated Areas</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Villages" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Dorpen</name_singular>
               <name_plural>Dorpen</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Villages</name_singular>
+              <name_plural>Villages</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Small_Cities" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Kleine steden</name_singular>
               <name_plural>Kleine steden</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Small Cities</name_singular>
+              <name_plural>Small Cities</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Peri_Urban" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Peri-Urban</name_singular>
+              <name_plural>Peri-Urban</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Substedelijk</name_singular>
               <name_plural>Substedelijk</name_plural>
               <description/>
@@ -2885,25 +3376,40 @@
         </item>
         <item idno="Mountains" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Bergen</name_singular>
               <name_plural>Bergen</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Mountains</name_singular>
+              <name_plural>Mountains</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Seaside" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Kust</name_singular>
               <name_plural>Kust</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Seaside</name_singular>
+              <name_plural>Seaside</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Eating_And_Drinking_Meals" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Eating And Drinking/Meals</name_singular>
+              <name_plural>Eating And Drinking/Meals</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Eten en drinken/Maaltijden</name_singular>
               <name_plural>Eten en drinken/Maaltijden</name_plural>
               <description/>
@@ -2912,25 +3418,40 @@
         </item>
         <item idno="Festivity_Popular_Culture" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Feesten/Populaire cultuur</name_singular>
               <name_plural>Feesten/Populaire cultuur</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Festivity/Popular Culture</name_singular>
+              <name_plural>Festivity/Popular Culture</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Sports" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Sport</name_singular>
               <name_plural>Sport</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Sports</name_singular>
+              <name_plural>Sports</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Associations" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Associations</name_singular>
+              <name_plural>Associations</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Verenigingen</name_singular>
               <name_plural>Verenigingen</name_plural>
               <description/>
@@ -2939,16 +3460,26 @@
         </item>
         <item idno="Tourism_Travel" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Toerisme/Reizen</name_singular>
               <name_plural>Toerisme/Reizen</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Tourism/Travel</name_singular>
+              <name_plural>Tourism/Travel</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Animal_Husbandry" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Animal Husbandry</name_singular>
+              <name_plural>Animal Husbandry</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Veeteelt</name_singular>
               <name_plural>Veeteelt</name_plural>
               <description/>
@@ -2957,7 +3488,12 @@
         </item>
         <item idno="Dairy_Farming" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Dairy Farming</name_singular>
+              <name_plural>Dairy Farming</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Melkveehouderij</name_singular>
               <name_plural>Melkveehouderij</name_plural>
               <description/>
@@ -2966,7 +3502,12 @@
         </item>
         <item idno="Horticulture" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Horticulture</name_singular>
+              <name_plural>Horticulture</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Tuinbouw</name_singular>
               <name_plural>Tuinbouw</name_plural>
               <description/>
@@ -2975,25 +3516,40 @@
         </item>
         <item idno="Arable_Farming" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Akkerbouw</name_singular>
               <name_plural>Akkerbouw</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Arable Farming</name_singular>
+              <name_plural>Arable Farming</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Forestry" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Bosbouw</name_singular>
               <name_plural>Bosbouw</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Forestry</name_singular>
+              <name_plural>Forestry</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Crop_Farming" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Crop Farming</name_singular>
+              <name_plural>Crop Farming</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Gewasbouw</name_singular>
               <name_plural>Gewasbouw</name_plural>
               <description/>
@@ -3002,7 +3558,12 @@
         </item>
         <item idno="Viticulture" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Viticulture</name_singular>
+              <name_plural>Viticulture</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Wijnbouw</name_singular>
               <name_plural>Wijnbouw</name_plural>
               <description/>
@@ -3011,7 +3572,12 @@
         </item>
         <item idno="Pomiculture" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Pomiculture</name_singular>
+              <name_plural>Pomiculture</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Pomologie</name_singular>
               <name_plural>Pomologie</name_plural>
               <description/>
@@ -3020,16 +3586,26 @@
         </item>
         <item idno="Agricultural_Processing" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Agrarische verwerking</name_singular>
               <name_plural>Agrarische verwerking</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Agricultural Processing</name_singular>
+              <name_plural>Agricultural Processing</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Fertilizers" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Fertilizers</name_singular>
+              <name_plural>Fertilizers</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Meststoffen</name_singular>
               <name_plural>Meststoffen</name_plural>
               <description/>
@@ -3038,61 +3614,96 @@
         </item>
         <item idno="Pesticides" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Pesticiden</name_singular>
               <name_plural>Pesticiden</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Pesticides</name_singular>
+              <name_plural>Pesticides</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Machinery" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Machinerie</name_singular>
               <name_plural>Machinerie</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Machinery</name_singular>
+              <name_plural>Machinery</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Electrification" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Electrificatie</name_singular>
               <name_plural>Electrificatie</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Electrification</name_singular>
+              <name_plural>Electrification</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Irrigation" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Irrigatie</name_singular>
               <name_plural>Irrigatie</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Irrigation</name_singular>
+              <name_plural>Irrigation</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Melioration" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Grondverbetering</name_singular>
               <name_plural>Grondverbetering</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Melioration</name_singular>
+              <name_plural>Melioration</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Veterinary_Medicine" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Diergeneeskunde</name_singular>
               <name_plural>Diergeneeskunde</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Veterinary Medicine</name_singular>
+              <name_plural>Veterinary Medicine</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Fisheries" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Fisheries</name_singular>
+              <name_plural>Fisheries</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Visserij</name_singular>
               <name_plural>Visserij</name_plural>
               <description/>
@@ -3101,7 +3712,12 @@
         </item>
         <item idno="Apiculture" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Apiculture</name_singular>
+              <name_plural>Apiculture</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Bijenteelt</name_singular>
               <name_plural>Bijenteelt</name_plural>
               <description/>
@@ -3110,18 +3726,14 @@
         </item>
         <item idno="Floriculture" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Bloementeelt</name_singular>
               <name_plural>Bloementeelt</name_plural>
               <description/>
             </label>
-          </labels>
-        </item>
-        <item idno="Reportage" enabled="1" default="0" type="concept">
-          <labels>
-            <label locale="en_US" preferred="1">
-              <name_singular>Reportage</name_singular>
-              <name_plural>Reportage</name_plural>
+            <label locale="nl_NL" preferred="1">
+              <name_singular>Floriculture</name_singular>
+              <name_plural>Floriculture</name_plural>
               <description/>
             </label>
           </labels>
@@ -3137,16 +3749,26 @@
       <items>
         <item idno="Orderer" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Opdrachtgever</name_singular>
               <name_plural>Opdrachtgever</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Orderer</name_singular>
+              <name_plural>Orderer</name_plural>
               <description/>
             </label>
           </labels>
         </item>
         <item idno="Sponsor" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Sponsor</name_singular>
+              <name_plural>Sponsor</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Sponsor</name_singular>
               <name_plural>Sponsor</name_plural>
               <description/>
@@ -3164,8 +3786,13 @@
       <items>
         <item idno="Captions" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Bijschriften</name_singular>
+              <name_plural>Bijschriften</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Captions</name_singular>
               <name_plural>Bijschriften</name_plural>
               <description/>
             </label>
@@ -3173,7 +3800,12 @@
         </item>
         <item idno="Intertitles" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="en_US" preferred="1">
+              <name_singular>Intertitles</name_singular>
+              <name_plural>Tussentitels</name_plural>
+              <description/>
+            </label>
+            <label locale="nl_NL" preferred="0">
               <name_singular>Tussentitels</name_singular>
               <name_plural>Tussentitels</name_plural>
               <description/>
@@ -3182,8 +3814,13 @@
         </item>
         <item idno="Signed" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Ondertekend</name_singular>
+              <name_plural>Ondertekend</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Signed</name_singular>
               <name_plural>Ondertekend</name_plural>
               <description/>
             </label>
@@ -3191,9 +3828,50 @@
         </item>
         <item idno="Subtitles" enabled="1" default="0" type="concept">
           <labels>
-            <label locale="en_US" preferred="0">
+            <label locale="nl_NL" preferred="0">
               <name_singular>Ondertiteling</name_singular>
               <name_plural>Ondertiteling</name_plural>
+              <description/>
+            </label>
+            <label locale="en_US" preferred="1">
+              <name_singular>Subtitles</name_singular>
+              <name_plural>Ondertiteling</name_plural>
+              <description/>
+            </label>
+          </labels>
+        </item>
+      </items>
+    </list>
+    <list code="film_access_statuses" hierarchical="0" system="0" vocabulary="0">
+      <labels>
+        <label locale="en_US">
+          <name>Film access statuses</name>
+        </label>
+      </labels>
+      <items>
+        <item idno="not_online_accessible" enabled="1" default="0" type="concept">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>not online accessible to public</name_singular>
+              <name_plural>not online accessible to public</name_plural>
+              <description/>
+            </label>
+          </labels>
+        </item>
+        <item idno="online_accessible" enabled="1" default="0" type="concept">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>online accessible to public</name_singular>
+              <name_plural>online accessible to public</name_plural>
+              <description/>
+            </label>
+          </labels>
+        </item>
+        <item idno="restricted_online_access" enabled="1" default="0" type="concept">
+          <labels>
+            <label locale="en_US" preferred="1">
+              <name_singular>restricted online public access</name_singular>
+              <name_plural>restricted online public access</name_plural>
               <description/>
             </label>
           </labels>
@@ -6838,8 +7516,14 @@ Notatiewijze &lt;b&gt;dd/mm/jjjj&lt;/b&gt; - &lt;b&gt;dd/mm/jjjj&lt;/b&gt; , enk
             <placement code="ca_attribute_References6">
               <bundle>ca_attribute_References</bundle>
             </placement>
-            <placement code="ca_attribute_Rights_Container6">
-              <bundle>ca_attribute_Rights_Container</bundle>
+            <placement code="ca_attribute_Right_Statement7">
+              <bundle>ca_attribute_Right_Statement</bundle>
+            </placement>
+            <placement code="ca_attribute_Rights_Research_C">
+              <bundle>ca_attribute_Rights_Research_Container</bundle>
+            </placement>
+            <placement code="ca_attribute_Rights_Risk_Analy">
+              <bundle>ca_attribute_Rights_Risk_Analysis_Container</bundle>
             </placement>
             <placement code="ca_entities7">
               <bundle>ca_entities</bundle>
@@ -6861,6 +7545,9 @@ Notatiewijze &lt;b&gt;dd/mm/jjjj&lt;/b&gt; - &lt;b&gt;dd/mm/jjjj&lt;/b&gt; , enk
                 <setting name="disableQuickadd">0</setting>
                 <setting name="disableSorts">0</setting>
               </settings>
+            </placement>
+            <placement code="ca_attribute_Attribution11">
+              <bundle>ca_attribute_Attribution</bundle>
             </placement>
             <placement code="ca_attribute_Dataprovider9">
               <bundle>ca_attribute_Dataprovider</bundle>
@@ -9037,6 +9724,7 @@ De weergavenaam wordt toegekend bij opslaan van de fiche: [familienaam, voornaam
         <action>can_change_acl_ca_objects</action>
         <action>can_batch_edit_ca_objects</action>
         <action>can_batch_delete_ca_objects</action>
+        <action>can_duplicate_ca_object_representations</action>
         <action>can_create_ca_entities</action>
         <action>can_edit_ca_entities</action>
         <action>can_delete_ca_entities</action>
@@ -9085,6 +9773,7 @@ De weergavenaam wordt toegekend bij opslaan van de fiche: [familienaam, voornaam
         <action>can_change_acl_ca_collections</action>
         <action>can_batch_edit_ca_collections</action>
         <action>can_batch_delete_ca_collections</action>
+        <action>can_duplicate_ca_storage_locations</action>
         <action>can_create_ca_lists</action>
         <action>can_edit_ca_lists</action>
         <action>can_edit_system_lists</action>
@@ -9125,453 +9814,747 @@ De weergavenaam wordt toegekend bij opslaan van de fiche: [familienaam, voornaam
         <action>can_use_track_processing_widget</action>
       </actions>
       <bundleLevelAccessControl>
-        <permission table="ca_objects" bundle="preferred_labels" access="edit"/>
-        <permission table="ca_objects" bundle="nonpreferred_labels" access="edit"/>
-        <permission table="ca_objects" bundle="object_id" access="edit"/>
-        <permission table="ca_objects" bundle="locale_id" access="edit"/>
-        <permission table="ca_objects" bundle="source_id" access="edit"/>
-        <permission table="ca_objects" bundle="idno" access="edit"/>
-        <permission table="ca_objects" bundle="item_status_id" access="edit"/>
-        <permission table="ca_objects" bundle="acquisition_type_id" access="edit"/>
-        <permission table="ca_objects" bundle="extent" access="edit"/>
-        <permission table="ca_objects" bundle="extent_units" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_Abstract_Container" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_Alternative_Title_Container" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_Archival_Source" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_Behandelingsprior_Info" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_Carrier_Container" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_Credit_Container" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_Dataprovider" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_Description_Container" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_Genre" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_Geographical_Focus" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_Language" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_Main_Title_Container" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_Production_Place" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_Production_Year" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_References" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_Rights_Container" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_Search_Date" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_Series_Container" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_Subject" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_Translated_Title_Container" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_aatObjectNaam" access="edit"/>
         <permission table="ca_objects" bundle="access" access="edit"/>
-        <permission table="ca_objects" bundle="status" access="edit"/>
-        <permission table="ca_objects" bundle="rank" access="edit"/>
         <permission table="ca_objects" bundle="acl_inherit_from_ca_collections" access="edit"/>
         <permission table="ca_objects" bundle="acl_inherit_from_parent" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_technischeBeschrijving" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_algemeneBeschrijving" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_materiaalInfo" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_dimensionsInfo" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_colourInfo" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_opschriftInfo" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_objectInventarisnrBpltsInfo" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_adlibObjectNummer" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_refPaginaInfo" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_completenessInfo" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_toestandInfo" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_inhoudBeschrijving" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_physicalDescription" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_objectVervaardigingInfo" access="edit"/>
         <permission table="ca_objects" bundle="ca_attribute_acquisitionInfo" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_georeference" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_moveObjectnaam" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_conceptDefinitie" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_related_object_notesInfo" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_numberOfObjects" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_cagObjectnaamInfo" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_objectnaamAlternatief" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_titelAlternatief" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_europeana_publiceren" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_creativecommons" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_bewaarde_objecten" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_external_link" access="edit"/>
-        <permission table="ca_objects" bundle="ca_attribute_trefwoordenInfo" access="edit"/>
+        <permission table="ca_objects" bundle="acquisition_type_id" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_adlibObjectNummer" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_algemeneBeschrijving" access="edit"/>
         <permission table="ca_objects" bundle="ca_attribute_alternatieveBeschrijving" access="edit"/>
-        <permission table="ca_objects" bundle="ca_object_representations" access="edit"/>
-        <permission table="ca_objects" bundle="ca_objects" access="edit"/>
-        <permission table="ca_objects" bundle="ca_entities" access="edit"/>
-        <permission table="ca_objects" bundle="ca_places" access="edit"/>
-        <permission table="ca_objects" bundle="ca_occurrences" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_anita" access="edit"/>
+        <permission table="ca_objects" bundle="authority_references_list" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_bewaarde_objecten" access="edit"/>
         <permission table="ca_objects" bundle="ca_collections" access="edit"/>
-        <permission table="ca_objects" bundle="ca_storage_locations" access="edit"/>
-        <permission table="ca_objects" bundle="ca_loans" access="edit"/>
-        <permission table="ca_objects" bundle="ca_movements" access="edit"/>
-        <permission table="ca_objects" bundle="ca_tour_stops" access="edit"/>
-        <permission table="ca_objects" bundle="ca_object_lots" access="edit"/>
+        <permission table="ca_objects" bundle="ca_collections_related_list" access="edit"/>
+        <permission table="ca_objects" bundle="ca_entities" access="edit"/>
+        <permission table="ca_objects" bundle="ca_entities_related_list" access="edit"/>
         <permission table="ca_objects" bundle="ca_list_items" access="edit"/>
+        <permission table="ca_objects" bundle="ca_list_items_related_list" access="edit"/>
+        <permission table="ca_objects" bundle="ca_loans" access="edit"/>
+        <permission table="ca_objects" bundle="ca_loans_related_list" access="edit"/>
+        <permission table="ca_objects" bundle="ca_movements" access="edit"/>
+        <permission table="ca_objects" bundle="ca_movements_related_list" access="edit"/>
+        <permission table="ca_objects" bundle="ca_object_checkouts" access="edit"/>
+        <permission table="ca_objects" bundle="ca_object_circulation_status" access="edit"/>
+        <permission table="ca_objects" bundle="ca_object_lots" access="edit"/>
+        <permission table="ca_objects" bundle="ca_object_lots_related_list" access="edit"/>
+        <permission table="ca_objects" bundle="ca_object_representations" access="edit"/>
+        <permission table="ca_objects" bundle="ca_object_representations_access_status" access="edit"/>
+        <permission table="ca_objects" bundle="ca_object_representations_related_list" access="edit"/>
+        <permission table="ca_objects" bundle="ca_objects" access="edit"/>
+        <permission table="ca_objects" bundle="ca_objects_components_list" access="edit"/>
+        <permission table="ca_objects" bundle="ca_objects_deaccession" access="edit"/>
+        <permission table="ca_objects" bundle="ca_objects_history" access="edit"/>
+        <permission table="ca_objects" bundle="ca_objects_location" access="edit"/>
+        <permission table="ca_objects" bundle="ca_objects_location_date" access="edit"/>
+        <permission table="ca_objects" bundle="ca_objects_related_list" access="edit"/>
+        <permission table="ca_objects" bundle="ca_objects_table" access="edit"/>
+        <permission table="ca_objects" bundle="ca_occurrences" access="edit"/>
+        <permission table="ca_objects" bundle="ca_occurrences_related_list" access="edit"/>
+        <permission table="ca_objects" bundle="ca_places" access="edit"/>
+        <permission table="ca_objects" bundle="ca_places_related_list" access="edit"/>
         <permission table="ca_objects" bundle="ca_sets" access="edit"/>
-        <permission table="ca_objects" bundle="hierarchy_navigation" access="edit"/>
+        <permission table="ca_objects" bundle="ca_sets_checklist" access="edit"/>
+        <permission table="ca_objects" bundle="ca_storage_locations" access="edit"/>
+        <permission table="ca_objects" bundle="ca_storage_locations_related_list" access="edit"/>
+        <permission table="ca_objects" bundle="ca_tour_stops" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_cagObjectnaamInfo" access="edit"/>
+        <permission table="ca_objects" bundle="circulation_status_id" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_colourInfo" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_completenessInfo" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_conceptDefinitie" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_creativecommons" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_currentLocation" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_dimensionsInfo" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_disposalInfo" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_europeana_publiceren" access="edit"/>
+        <permission table="ca_objects" bundle="extent" access="edit"/>
+        <permission table="ca_objects" bundle="extent_units" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_external_link" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_georeference" access="edit"/>
         <permission table="ca_objects" bundle="hierarchy_location" access="edit"/>
-        <permission table="ca_entities" bundle="preferred_labels" access="edit"/>
-        <permission table="ca_entities" bundle="nonpreferred_labels" access="edit"/>
-        <permission table="ca_entities" bundle="entity_id" access="edit"/>
-        <permission table="ca_entities" bundle="locale_id" access="edit"/>
-        <permission table="ca_entities" bundle="source_id" access="edit"/>
-        <permission table="ca_entities" bundle="idno" access="edit"/>
-        <permission table="ca_entities" bundle="lifespan" access="edit"/>
+        <permission table="ca_objects" bundle="hierarchy_navigation" access="edit"/>
+        <permission table="ca_objects" bundle="idno" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_imageUrl" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_inhoudBeschrijving" access="edit"/>
+        <permission table="ca_objects" bundle="item_status_id" access="edit"/>
+        <permission table="ca_objects" bundle="locale_id" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_materiaalInfo" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_moveObjectnaam" access="edit"/>
+        <permission table="ca_objects" bundle="nonpreferred_labels" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_numberOfObjects" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_objectInventarisnrBpltsInfo" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_objectVervaardigingInfo" access="edit"/>
+        <permission table="ca_objects" bundle="object_id" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_objectnaamAlternatief" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_opschriftInfo" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_periode" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_physicalDescription" access="edit"/>
+        <permission table="ca_objects" bundle="preferred_labels" access="edit"/>
+        <permission table="ca_objects" bundle="rank" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_refPaginaInfo" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_related_object_notesInfo" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_rights_statements" access="edit"/>
+        <permission table="ca_objects" bundle="source_id" access="edit"/>
+        <permission table="ca_objects" bundle="status" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_technischeBeschrijving" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_titelAlternatief" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_toestandInfo" access="edit"/>
+        <permission table="ca_objects" bundle="ca_attribute_trefwoordenInfo" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_RKDartists" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_RaadpleegDigitaleObj" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_TGN" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_ULAN" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_Wikipedia" access="edit"/>
         <permission table="ca_entities" bundle="access" access="edit"/>
-        <permission table="ca_entities" bundle="status" access="edit"/>
-        <permission table="ca_entities" bundle="rank" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_opschriftInfo" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_opmerkingEntities" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_persoonDatumInfo" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_historischeOrgDatumInfo" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_persoonBiografie" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_werkveldInfo" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_bezoekersAantalInfo" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_erkendMuseumInfo" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_raadVanBeheer" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_raadpleegFysiekInfo" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_tentoonstellingInfo" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_samenwerkingInfo" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_publicatiesInfo" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_inventarisInfo" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_personeelInDienstInfo" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_vrijwilligersInfo" access="edit"/>
         <permission table="ca_entities" bundle="ca_attribute_adlibObjectNummer" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_positieveAspectenCollectie" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_toekomstvisieCollectie" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_rolCagToekomst" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_analyseCAG" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_bezoekdatum" access="edit"/>
         <permission table="ca_entities" bundle="ca_attribute_adres" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_external_link" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_vasteOpeningPerJaar" access="edit"/>
         <permission table="ca_entities" bundle="ca_attribute_afspraakInfo" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_ambachtenNeringenInfo" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_analyseCAG" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_anita" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_aparteDepotruimte" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_archiefBeschikbaar" access="edit"/>
+        <permission table="ca_entities" bundle="authority_references_list" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_beheerderVerzameling" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_beroepOrg" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_beroepPersoon" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_bezkersaantal" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_bezoekdatum" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_bezoekersAantalInfo" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_bibliotheekBeschikbaar" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_biografie" access="edit"/>
         <permission table="ca_entities" bundle="ca_attribute_bronInkomsten" access="edit"/>
         <permission table="ca_entities" bundle="ca_attribute_bronUitgaven" access="edit"/>
+        <permission table="ca_entities" bundle="ca_collections" access="edit"/>
+        <permission table="ca_entities" bundle="ca_collections_related_list" access="edit"/>
+        <permission table="ca_entities" bundle="ca_entities" access="edit"/>
+        <permission table="ca_entities" bundle="ca_entities_related_list" access="edit"/>
+        <permission table="ca_entities" bundle="ca_list_items" access="edit"/>
+        <permission table="ca_entities" bundle="ca_list_items_related_list" access="edit"/>
+        <permission table="ca_entities" bundle="ca_loans" access="edit"/>
+        <permission table="ca_entities" bundle="ca_loans_related_list" access="edit"/>
+        <permission table="ca_entities" bundle="ca_movements" access="edit"/>
+        <permission table="ca_entities" bundle="ca_movements_related_list" access="edit"/>
+        <permission table="ca_entities" bundle="ca_object_lots" access="edit"/>
+        <permission table="ca_entities" bundle="ca_object_lots_related_list" access="edit"/>
+        <permission table="ca_entities" bundle="ca_object_representations" access="edit"/>
+        <permission table="ca_entities" bundle="ca_object_representations_related_list" access="edit"/>
+        <permission table="ca_entities" bundle="ca_objects" access="edit"/>
+        <permission table="ca_entities" bundle="ca_objects_related_list" access="edit"/>
+        <permission table="ca_entities" bundle="ca_objects_table" access="edit"/>
+        <permission table="ca_entities" bundle="ca_occurrences" access="edit"/>
+        <permission table="ca_entities" bundle="ca_occurrences_related_list" access="edit"/>
+        <permission table="ca_entities" bundle="ca_places" access="edit"/>
+        <permission table="ca_entities" bundle="ca_places_related_list" access="edit"/>
+        <permission table="ca_entities" bundle="ca_sets" access="edit"/>
+        <permission table="ca_entities" bundle="ca_sets_checklist" access="edit"/>
+        <permission table="ca_entities" bundle="ca_storage_locations" access="edit"/>
+        <permission table="ca_entities" bundle="ca_storage_locations_related_list" access="edit"/>
+        <permission table="ca_entities" bundle="ca_tour_stops" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_categoriePersOrg" access="edit"/>
         <permission table="ca_entities" bundle="ca_attribute_doelgroepMuseum" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_herkomstBezoekersInfo" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_wijzeVanBezoek" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_rondleidingen" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_bezkersaantal" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_toegangsprijs" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_bibliotheekBeschikbaar" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_archiefBeschikbaar" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_RaadpleegDigitaleObj" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_statuten" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_statuut" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_verzekering" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_aparteDepotruimte" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_ruimteProbleem" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_ambachtenNeringenInfo" access="edit"/>
         <permission table="ca_entities" bundle="ca_attribute_eigenaarGebouw" access="edit"/>
         <permission table="ca_entities" bundle="ca_attribute_eigenaarVerzameling" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_beheerderVerzameling" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_persoonFunctie" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_beroepPersoon" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_beroepOrg" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_organisatieType" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_persoonNationaliteit" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_categoriePersOrg" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_georeference" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_id_code_archiefbank" access="edit"/>
-        <permission table="ca_entities" bundle="ca_attribute_rechtspersoon" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_entityType" access="edit"/>
+        <permission table="ca_entities" bundle="entity_id" access="edit"/>
         <permission table="ca_entities" bundle="ca_attribute_erfgoeddragersinfo" access="edit"/>
-        <permission table="ca_entities" bundle="ca_object_representations" access="edit"/>
-        <permission table="ca_entities" bundle="ca_entities" access="edit"/>
-        <permission table="ca_entities" bundle="ca_places" access="edit"/>
-        <permission table="ca_entities" bundle="ca_objects" access="edit"/>
-        <permission table="ca_entities" bundle="ca_occurrences" access="edit"/>
-        <permission table="ca_entities" bundle="ca_collections" access="edit"/>
-        <permission table="ca_entities" bundle="ca_object_lots" access="edit"/>
-        <permission table="ca_entities" bundle="ca_loans" access="edit"/>
-        <permission table="ca_entities" bundle="ca_movements" access="edit"/>
-        <permission table="ca_entities" bundle="ca_storage_locations" access="edit"/>
-        <permission table="ca_entities" bundle="ca_tour_stops" access="edit"/>
-        <permission table="ca_entities" bundle="ca_list_items" access="edit"/>
-        <permission table="ca_entities" bundle="ca_sets" access="edit"/>
-        <permission table="ca_entities" bundle="hierarchy_navigation" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_erkendMuseumInfo" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_external_link" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_georeference" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_herkomstBezoekersInfo" access="edit"/>
         <permission table="ca_entities" bundle="hierarchy_location" access="edit"/>
-        <permission table="ca_places" bundle="preferred_labels" access="edit"/>
-        <permission table="ca_places" bundle="nonpreferred_labels" access="edit"/>
-        <permission table="ca_places" bundle="place_id" access="edit"/>
-        <permission table="ca_places" bundle="parent_id" access="edit"/>
-        <permission table="ca_places" bundle="locale_id" access="edit"/>
-        <permission table="ca_places" bundle="source_id" access="edit"/>
+        <permission table="ca_entities" bundle="hierarchy_navigation" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_historischeOrgDatumInfo" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_id_code_archiefbank" access="edit"/>
+        <permission table="ca_entities" bundle="idno" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_imageUrl" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_inventarisInfo" access="edit"/>
+        <permission table="ca_entities" bundle="lifespan" access="edit"/>
+        <permission table="ca_entities" bundle="locale_id" access="edit"/>
+        <permission table="ca_entities" bundle="nonpreferred_labels" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_opmerkingEntities" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_opschriftInfo" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_organisatieType" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_personeelInDienstInfo" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_persoonBiografie" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_persoonDatumInfo" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_persoonFunctie" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_persoonNationaliteit" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_positieveAspectenCollectie" access="edit"/>
+        <permission table="ca_entities" bundle="preferred_labels" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_publicatiesInfo" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_raadVanBeheer" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_raadpleegFysiekInfo" access="edit"/>
+        <permission table="ca_entities" bundle="rank" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_rechtspersoon" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_rolCagToekomst" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_rondleidingen" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_ruimteProbleem" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_samenwerkingInfo" access="edit"/>
+        <permission table="ca_entities" bundle="source_id" access="edit"/>
+        <permission table="ca_entities" bundle="status" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_statuten" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_statuut" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_tentoonstellingInfo" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_toegangsprijs" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_toekomstvisieCollectie" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_vasteOpeningPerJaar" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_verzekering" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_viaf" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_vrijwilligersInfo" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_werkveldInfo" access="edit"/>
+        <permission table="ca_entities" bundle="ca_attribute_wijzeVanBezoek" access="edit"/>
+        <permission table="ca_places" bundle="access" access="edit"/>
+        <permission table="ca_places" bundle="ca_attribute_adlibObjectNummer" access="edit"/>
+        <permission table="ca_places" bundle="authority_references_list" access="edit"/>
+        <permission table="ca_places" bundle="ca_collections" access="edit"/>
+        <permission table="ca_places" bundle="ca_collections_related_list" access="edit"/>
+        <permission table="ca_places" bundle="ca_entities" access="edit"/>
+        <permission table="ca_places" bundle="ca_entities_related_list" access="edit"/>
+        <permission table="ca_places" bundle="ca_list_items" access="edit"/>
+        <permission table="ca_places" bundle="ca_list_items_related_list" access="edit"/>
+        <permission table="ca_places" bundle="ca_loans" access="edit"/>
+        <permission table="ca_places" bundle="ca_loans_related_list" access="edit"/>
+        <permission table="ca_places" bundle="ca_movements" access="edit"/>
+        <permission table="ca_places" bundle="ca_movements_related_list" access="edit"/>
+        <permission table="ca_places" bundle="ca_object_lots" access="edit"/>
+        <permission table="ca_places" bundle="ca_object_lots_related_list" access="edit"/>
+        <permission table="ca_places" bundle="ca_object_representations" access="edit"/>
+        <permission table="ca_places" bundle="ca_object_representations_related_list" access="edit"/>
+        <permission table="ca_places" bundle="ca_objects" access="edit"/>
+        <permission table="ca_places" bundle="ca_objects_related_list" access="edit"/>
+        <permission table="ca_places" bundle="ca_objects_table" access="edit"/>
+        <permission table="ca_places" bundle="ca_occurrences" access="edit"/>
+        <permission table="ca_places" bundle="ca_occurrences_related_list" access="edit"/>
+        <permission table="ca_places" bundle="ca_places" access="edit"/>
+        <permission table="ca_places" bundle="ca_places_related_list" access="edit"/>
+        <permission table="ca_places" bundle="ca_sets" access="edit"/>
+        <permission table="ca_places" bundle="ca_sets_checklist" access="edit"/>
+        <permission table="ca_places" bundle="ca_storage_locations" access="edit"/>
+        <permission table="ca_places" bundle="ca_storage_locations_related_list" access="edit"/>
+        <permission table="ca_places" bundle="ca_tour_stops" access="edit"/>
+        <permission table="ca_places" bundle="ca_attribute_external_link" access="edit"/>
+        <permission table="ca_places" bundle="floorplan" access="edit"/>
+        <permission table="ca_places" bundle="ca_attribute_georeference" access="edit"/>
+        <permission table="ca_places" bundle="hierarchy_location" access="edit"/>
+        <permission table="ca_places" bundle="hierarchy_navigation" access="edit"/>
         <permission table="ca_places" bundle="idno" access="edit"/>
         <permission table="ca_places" bundle="lifespan" access="edit"/>
-        <permission table="ca_places" bundle="access" access="edit"/>
-        <permission table="ca_places" bundle="status" access="edit"/>
+        <permission table="ca_places" bundle="locale_id" access="edit"/>
+        <permission table="ca_places" bundle="nonpreferred_labels" access="edit"/>
+        <permission table="ca_places" bundle="parent_id" access="edit"/>
+        <permission table="ca_places" bundle="place_id" access="edit"/>
+        <permission table="ca_places" bundle="preferred_labels" access="edit"/>
         <permission table="ca_places" bundle="rank" access="edit"/>
-        <permission table="ca_places" bundle="ca_attribute_adlibObjectNummer" access="edit"/>
-        <permission table="ca_places" bundle="ca_attribute_external_link" access="edit"/>
-        <permission table="ca_places" bundle="ca_attribute_georeference" access="edit"/>
-        <permission table="ca_places" bundle="ca_object_representations" access="edit"/>
-        <permission table="ca_places" bundle="ca_entities" access="edit"/>
-        <permission table="ca_places" bundle="ca_objects" access="edit"/>
-        <permission table="ca_places" bundle="ca_object_lots" access="edit"/>
-        <permission table="ca_places" bundle="ca_places" access="edit"/>
-        <permission table="ca_places" bundle="ca_collections" access="edit"/>
-        <permission table="ca_places" bundle="ca_occurrences" access="edit"/>
-        <permission table="ca_places" bundle="ca_storage_locations" access="edit"/>
-        <permission table="ca_places" bundle="ca_loans" access="edit"/>
-        <permission table="ca_places" bundle="ca_movements" access="edit"/>
-        <permission table="ca_places" bundle="ca_tour_stops" access="edit"/>
-        <permission table="ca_places" bundle="ca_list_items" access="edit"/>
-        <permission table="ca_places" bundle="ca_sets" access="edit"/>
-        <permission table="ca_places" bundle="hierarchy_navigation" access="edit"/>
-        <permission table="ca_places" bundle="hierarchy_location" access="edit"/>
-        <permission table="ca_occurrences" bundle="preferred_labels" access="edit"/>
+        <permission table="ca_places" bundle="source_id" access="edit"/>
+        <permission table="ca_places" bundle="status" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_Carrier_Container" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_Color" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_Condition_Container" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_Dataprovider" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_Duration" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_Image" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_Internal_Notes" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_Inventory_Nr_Container" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_Language" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_Notes_Container" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_Sound" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_Subtitles_Container" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_Web_Access" access="edit"/>
+        <permission table="ca_occurrences" bundle="access" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_acquisitionInfo" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_adlibObjectNummer" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_auteur" access="edit"/>
+        <permission table="ca_occurrences" bundle="authority_references_list" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_collections" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_collections_related_list" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_entities" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_entities_related_list" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_list_items" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_list_items_related_list" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_loans" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_loans_related_list" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_movements" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_movements_related_list" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_object_lots" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_object_lots_related_list" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_object_representations" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_object_representations_related_list" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_objects" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_objects_related_list" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_objects_table" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_occurrences" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_occurrences_related_list" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_places" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_places_related_list" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_sets" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_sets_checklist" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_storage_locations" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_storage_locations_related_list" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_tour_stops" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_external_link" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_gebeurtenisDatum" access="edit"/>
+        <permission table="ca_occurrences" bundle="hierarchy_location" access="edit"/>
+        <permission table="ca_occurrences" bundle="hierarchy_navigation" access="edit"/>
+        <permission table="ca_occurrences" bundle="idno" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_interviewerMondBron" access="edit"/>
+        <permission table="ca_occurrences" bundle="locale_id" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_mondelingeBronDate" access="edit"/>
         <permission table="ca_occurrences" bundle="nonpreferred_labels" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_occurrenceType" access="edit"/>
         <permission table="ca_occurrences" bundle="occurrence_id" access="edit"/>
         <permission table="ca_occurrences" bundle="parent_id" access="edit"/>
-        <permission table="ca_occurrences" bundle="locale_id" access="edit"/>
-        <permission table="ca_occurrences" bundle="idno" access="edit"/>
-        <permission table="ca_occurrences" bundle="source_id" access="edit"/>
-        <permission table="ca_occurrences" bundle="access" access="edit"/>
-        <permission table="ca_occurrences" bundle="status" access="edit"/>
+        <permission table="ca_occurrences" bundle="preferred_labels" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_pubType" access="edit"/>
         <permission table="ca_occurrences" bundle="rank" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_attribute_interviewerMondBron" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_attribute_adlibObjectNummer" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_attribute_gebeurtenisDatum" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_refNote" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_refPublicationDate" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_refPublicationJaargang" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_attribute_refPublicationTijdschriftTitel" access="edit"/>
         <permission table="ca_occurrences" bundle="ca_attribute_refPublicationPlaats" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_attribute_mondelingeBronDate" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_attribute_refNote" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_attribute_acquisitionInfo" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_attribute_external_link" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_attribute_auteur" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_object_representations" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_entities" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_objects" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_object_lots" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_occurrences" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_collections" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_places" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_storage_locations" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_loans" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_movements" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_tour_stops" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_list_items" access="edit"/>
-        <permission table="ca_occurrences" bundle="ca_sets" access="edit"/>
-        <permission table="ca_occurrences" bundle="hierarchy_navigation" access="edit"/>
-        <permission table="ca_occurrences" bundle="hierarchy_location" access="edit"/>
-        <permission table="ca_collections" bundle="preferred_labels" access="edit"/>
-        <permission table="ca_collections" bundle="nonpreferred_labels" access="edit"/>
-        <permission table="ca_collections" bundle="collection_id" access="edit"/>
-        <permission table="ca_collections" bundle="locale_id" access="edit"/>
-        <permission table="ca_collections" bundle="idno" access="edit"/>
-        <permission table="ca_collections" bundle="source_id" access="edit"/>
-        <permission table="ca_collections" bundle="access" access="edit"/>
-        <permission table="ca_collections" bundle="status" access="edit"/>
-        <permission table="ca_collections" bundle="rank" access="edit"/>
-        <permission table="ca_collections" bundle="acl_inherit_from_parent" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_promotiemateriaalInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_interesObjLandbouwInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_primaireActInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_distributieLandInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_distributieInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_verwerkingAlgInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_verwerkingSpecInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_nabewerkingInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_consumptieInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_tellingObjAgrInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_tellingObjVoedInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_bereidingAlgInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_bereidingSpecInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_adlibObjectNummer" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_topstukkenCollBeh" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_grootsteMoeilijkhedenCollectie" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_positieveAspectenCollectie" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_toekomstvisieCollectie" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_rolCagToekomst" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_collectieBeschrijving" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_analyseCAG" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_external_link" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_plaatsGelinktCollectieInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_frequentieOvernameInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_landbouwCollectieInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_voedingCollectieInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_verzamelperiodeInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_overnamebeleid_collectie" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_bewaarconditiesCollectie" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_restauratie" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_aparteDepotruimte" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_ruimteProbleem" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_audiovisueelMateriaalInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_anderMateriaalInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_beeldmateriaalInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_tekstmateriaalInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_immatAgrErfgoedInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_ambachtenNeringenInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_collectieOnderhoud" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_bruikleengeving" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_afstotenCollectieInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_collectieverwerving" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_focus_collectie" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_collectie_type" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_bestandscode_Archiefbank" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_omvang" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_beschrijvingsniveau" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_sterktesCollectie" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_zwaktesCollectie" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_kansenCollectie" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_bedreigingenCollectie" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_erfgoedzorgValorisatie" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_potentieelDigitaliseringInfo" access="edit"/>
+        <permission table="ca_occurrences" bundle="ca_attribute_refPublicationTijdschriftTitel" access="edit"/>
+        <permission table="ca_occurrences" bundle="source_id" access="edit"/>
+        <permission table="ca_occurrences" bundle="status" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_ErfgoedactiviteitenInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_LiteratuurInfo" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_PeriodiekeTradities_Info" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_SamenwerkingInstantiesInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_onderwijsvormInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_voedingsopleidingInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_opleidingLandTuinbouwInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_aardMateriaalInfo" access="edit"/>
+        <permission table="ca_collections" bundle="access" access="edit"/>
+        <permission table="ca_collections" bundle="acl_inherit_from_parent" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_actieveConservatie" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_adlibObjectNummer" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_adminArchiefAanwezigInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_afstotenCollectieInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_ambachtenNeringenInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_analyseCAG" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_anderMateriaalInfo" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_andereCollectiesInfo" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_andereErfgoedvindplaatsInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_adminArchiefAanwezigInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_bewaarplaatsCollInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_raadplegingInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_aardMateriaalInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_LiteratuurInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_periodiekePublicatiesInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_schoolgebondenDocInfo" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_andereObjectenInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_aparteDepotruimte" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_audiovisueelMateriaalInfo" access="edit"/>
+        <permission table="ca_collections" bundle="authority_references_list" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_bedreigingenCollectie" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_beeldGeluidInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_vervoerInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_beeldmateriaalInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_bereidingAlgInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_bereidingSpecInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_beschrijvingsniveau" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_bestandscode_Archiefbank" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_bewaarconditiesCollectie" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_bewaarplaatsCollInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_bezoekdatum" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_bruikleengeving" access="edit"/>
+        <permission table="ca_collections" bundle="ca_collections" access="edit"/>
+        <permission table="ca_collections" bundle="ca_collections_related_list" access="edit"/>
+        <permission table="ca_collections" bundle="ca_entities" access="edit"/>
+        <permission table="ca_collections" bundle="ca_entities_related_list" access="edit"/>
+        <permission table="ca_collections" bundle="ca_list_items" access="edit"/>
+        <permission table="ca_collections" bundle="ca_list_items_related_list" access="edit"/>
+        <permission table="ca_collections" bundle="ca_loans" access="edit"/>
+        <permission table="ca_collections" bundle="ca_loans_related_list" access="edit"/>
+        <permission table="ca_collections" bundle="ca_movements" access="edit"/>
+        <permission table="ca_collections" bundle="ca_movements_related_list" access="edit"/>
+        <permission table="ca_collections" bundle="ca_object_lots" access="edit"/>
+        <permission table="ca_collections" bundle="ca_object_lots_related_list" access="edit"/>
+        <permission table="ca_collections" bundle="ca_object_representations" access="edit"/>
+        <permission table="ca_collections" bundle="ca_object_representations_related_list" access="edit"/>
+        <permission table="ca_collections" bundle="ca_objects" access="edit"/>
+        <permission table="ca_collections" bundle="ca_objects_related_list" access="edit"/>
+        <permission table="ca_collections" bundle="ca_objects_table" access="edit"/>
+        <permission table="ca_collections" bundle="ca_occurrences" access="edit"/>
+        <permission table="ca_collections" bundle="ca_occurrences_related_list" access="edit"/>
+        <permission table="ca_collections" bundle="ca_places" access="edit"/>
+        <permission table="ca_collections" bundle="ca_places_related_list" access="edit"/>
+        <permission table="ca_collections" bundle="ca_sets" access="edit"/>
+        <permission table="ca_collections" bundle="ca_sets_checklist" access="edit"/>
+        <permission table="ca_collections" bundle="ca_storage_locations" access="edit"/>
+        <permission table="ca_collections" bundle="ca_storage_locations_related_list" access="edit"/>
+        <permission table="ca_collections" bundle="ca_tour_stops" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_collectieBeschrijving" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_collectieOnderhoud" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_collectie_type" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_collectieverwerving" access="edit"/>
+        <permission table="ca_collections" bundle="collection_id" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_consumptieInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_distributieInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_distributieLandInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_erfgoedzorgValorisatie" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_external_link" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_focus_collectie" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_frequentieOvernameInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_grootsteMoeilijkhedenCollectie" access="edit"/>
+        <permission table="ca_collections" bundle="hierarchy_location" access="edit"/>
+        <permission table="ca_collections" bundle="hierarchy_navigation" access="edit"/>
+        <permission table="ca_collections" bundle="idno" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_immatAgrErfgoedInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_interesObjLandbouwInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_kansenCollectie" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_landbouwCollectieInfo" access="edit"/>
+        <permission table="ca_collections" bundle="locale_id" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_nabewerkingInfo" access="edit"/>
+        <permission table="ca_collections" bundle="nonpreferred_labels" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_objectenLandTuinbouwInfo" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_objectenVoedingInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_bezoekdatum" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_omvang" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_onderwijsvormInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_opleidingLandTuinbouwInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_overnamebeleid_collectie" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_periodiekePublicatiesInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_plaatsGelinktCollectieInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_positieveAspectenCollectie" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_potentieelDigitaliseringInfo" access="edit"/>
+        <permission table="ca_collections" bundle="preferred_labels" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_primaireActInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_promotiemateriaalInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_raadplegingInfo" access="edit"/>
+        <permission table="ca_collections" bundle="rank" access="edit"/>
         <permission table="ca_collections" bundle="ca_attribute_refPaginaInfo" access="edit"/>
-        <permission table="ca_collections" bundle="ca_attribute_actieveConservatie" access="edit"/>
-        <permission table="ca_collections" bundle="ca_object_representations" access="edit"/>
-        <permission table="ca_collections" bundle="ca_entities" access="edit"/>
-        <permission table="ca_collections" bundle="ca_objects" access="edit"/>
-        <permission table="ca_collections" bundle="ca_places" access="edit"/>
-        <permission table="ca_collections" bundle="ca_collections" access="edit"/>
-        <permission table="ca_collections" bundle="ca_occurrences" access="edit"/>
-        <permission table="ca_collections" bundle="ca_object_lots" access="edit"/>
-        <permission table="ca_collections" bundle="ca_storage_locations" access="edit"/>
-        <permission table="ca_collections" bundle="ca_list_items" access="edit"/>
-        <permission table="ca_collections" bundle="ca_sets" access="edit"/>
-        <permission table="ca_collections" bundle="ca_loans" access="edit"/>
-        <permission table="ca_collections" bundle="ca_movements" access="edit"/>
-        <permission table="ca_collections" bundle="ca_tour_stops" access="edit"/>
-        <permission table="ca_collections" bundle="hierarchy_navigation" access="edit"/>
-        <permission table="ca_collections" bundle="hierarchy_location" access="edit"/>
-        <permission table="ca_object_lots" bundle="preferred_labels" access="none"/>
-        <permission table="ca_object_lots" bundle="nonpreferred_labels" access="none"/>
-        <permission table="ca_object_lots" bundle="lot_id" access="none"/>
-        <permission table="ca_object_lots" bundle="lot_status_id" access="none"/>
-        <permission table="ca_object_lots" bundle="idno_stub" access="none"/>
-        <permission table="ca_object_lots" bundle="extent" access="none"/>
-        <permission table="ca_object_lots" bundle="extent_units" access="none"/>
-        <permission table="ca_object_lots" bundle="access" access="none"/>
-        <permission table="ca_object_lots" bundle="status" access="none"/>
-        <permission table="ca_object_lots" bundle="rank" access="none"/>
-        <permission table="ca_object_lots" bundle="ca_object_representations" access="none"/>
-        <permission table="ca_object_lots" bundle="ca_entities" access="none"/>
-        <permission table="ca_object_lots" bundle="ca_places" access="none"/>
-        <permission table="ca_object_lots" bundle="ca_occurrences" access="none"/>
-        <permission table="ca_object_lots" bundle="ca_collections" access="none"/>
-        <permission table="ca_object_lots" bundle="ca_storage_locations" access="none"/>
-        <permission table="ca_object_lots" bundle="ca_loans" access="none"/>
-        <permission table="ca_object_lots" bundle="ca_movements" access="none"/>
-        <permission table="ca_object_lots" bundle="ca_object_lots" access="none"/>
-        <permission table="ca_object_lots" bundle="ca_list_items" access="none"/>
-        <permission table="ca_object_lots" bundle="ca_sets" access="none"/>
-        <permission table="ca_object_lots" bundle="ca_objects" access="none"/>
-        <permission table="ca_loans" bundle="preferred_labels" access="none"/>
-        <permission table="ca_loans" bundle="nonpreferred_labels" access="none"/>
-        <permission table="ca_loans" bundle="loan_id" access="none"/>
-        <permission table="ca_loans" bundle="idno" access="none"/>
-        <permission table="ca_loans" bundle="status" access="none"/>
-        <permission table="ca_loans" bundle="rank" access="none"/>
-        <permission table="ca_loans" bundle="ca_attribute_loan_authorization_date" access="none"/>
-        <permission table="ca_loans" bundle="ca_attribute_loan_in_date" access="none"/>
-        <permission table="ca_loans" bundle="ca_attribute_loan_out_date" access="none"/>
-        <permission table="ca_loans" bundle="ca_attribute_loan_return_date" access="none"/>
-        <permission table="ca_loans" bundle="ca_attribute_loan_renewal_date" access="none"/>
-        <permission table="ca_loans" bundle="ca_attribute_loan_conditions" access="none"/>
-        <permission table="ca_loans" bundle="ca_attribute_loan_note" access="none"/>
-        <permission table="ca_loans" bundle="ca_attribute_loan_purpose" access="none"/>
-        <permission table="ca_loans" bundle="ca_object_representations" access="none"/>
-        <permission table="ca_loans" bundle="ca_objects" access="none"/>
-        <permission table="ca_loans" bundle="ca_object_lots" access="none"/>
-        <permission table="ca_loans" bundle="ca_entities" access="none"/>
-        <permission table="ca_loans" bundle="ca_places" access="none"/>
-        <permission table="ca_loans" bundle="ca_occurrences" access="none"/>
+        <permission table="ca_collections" bundle="ca_attribute_restauratie" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_rolCagToekomst" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_ruimteProbleem" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_schoolgebondenDocInfo" access="edit"/>
+        <permission table="ca_collections" bundle="source_id" access="edit"/>
+        <permission table="ca_collections" bundle="status" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_sterktesCollectie" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_tekstmateriaalInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_tellingObjAgrInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_tellingObjVoedInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_toekomstvisieCollectie" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_topstukkenCollBeh" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_vervoerInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_verwerkingAlgInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_verwerkingSpecInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_verzamelperiodeInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_voedingCollectieInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_voedingsopleidingInfo" access="edit"/>
+        <permission table="ca_collections" bundle="ca_attribute_zwaktesCollectie" access="edit"/>
+        <permission table="ca_storage_locations" bundle="access" access="edit"/>
+        <permission table="ca_storage_locations" bundle="authority_references_list" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_collections" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_collections_related_list" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_entities" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_entities_related_list" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_list_items" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_list_items_related_list" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_loans" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_loans_related_list" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_movements" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_movements_related_list" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_object_lots" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_object_lots_related_list" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_object_representations" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_object_representations_related_list" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_objects" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_objects_related_list" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_objects_table" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_occurrences" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_occurrences_related_list" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_places" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_places_related_list" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_sets" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_sets_checklist" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_storage_locations" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_storage_locations_contents" access="edit"/>
+        <permission table="ca_storage_locations" bundle="ca_storage_locations_related_list" access="edit"/>
+        <permission table="ca_storage_locations" bundle="color" access="edit"/>
+        <permission table="ca_storage_locations" bundle="hierarchy_location" access="edit"/>
+        <permission table="ca_storage_locations" bundle="hierarchy_navigation" access="edit"/>
+        <permission table="ca_storage_locations" bundle="icon" access="edit"/>
+        <permission table="ca_storage_locations" bundle="idno" access="edit"/>
+        <permission table="ca_storage_locations" bundle="is_enabled" access="edit"/>
+        <permission table="ca_storage_locations" bundle="location_id" access="edit"/>
+        <permission table="ca_storage_locations" bundle="nonpreferred_labels" access="edit"/>
+        <permission table="ca_storage_locations" bundle="preferred_labels" access="edit"/>
+        <permission table="ca_storage_locations" bundle="rank" access="edit"/>
+        <permission table="ca_storage_locations" bundle="source_id" access="edit"/>
+        <permission table="ca_storage_locations" bundle="status" access="edit"/>
+        <permission table="ca_loans" bundle="access" access="none"/>
+        <permission table="ca_loans" bundle="authority_references_list" access="none"/>
         <permission table="ca_loans" bundle="ca_collections" access="none"/>
-        <permission table="ca_loans" bundle="ca_loans" access="none"/>
-        <permission table="ca_loans" bundle="ca_movements" access="none"/>
-        <permission table="ca_loans" bundle="ca_storage_locations" access="none"/>
+        <permission table="ca_loans" bundle="ca_collections_related_list" access="none"/>
+        <permission table="ca_loans" bundle="ca_entities" access="none"/>
+        <permission table="ca_loans" bundle="ca_entities_related_list" access="none"/>
         <permission table="ca_loans" bundle="ca_list_items" access="none"/>
-        <permission table="ca_movements" bundle="preferred_labels" access="none"/>
-        <permission table="ca_movements" bundle="nonpreferred_labels" access="none"/>
-        <permission table="ca_movements" bundle="movement_id" access="none"/>
+        <permission table="ca_loans" bundle="ca_list_items_related_list" access="none"/>
+        <permission table="ca_loans" bundle="ca_loans" access="none"/>
+        <permission table="ca_loans" bundle="ca_loans_related_list" access="none"/>
+        <permission table="ca_loans" bundle="ca_movements" access="none"/>
+        <permission table="ca_loans" bundle="ca_movements_related_list" access="none"/>
+        <permission table="ca_loans" bundle="ca_object_lots" access="none"/>
+        <permission table="ca_loans" bundle="ca_object_lots_related_list" access="none"/>
+        <permission table="ca_loans" bundle="ca_object_representations" access="none"/>
+        <permission table="ca_loans" bundle="ca_object_representations_related_list" access="none"/>
+        <permission table="ca_loans" bundle="ca_objects" access="none"/>
+        <permission table="ca_loans" bundle="ca_objects_related_list" access="none"/>
+        <permission table="ca_loans" bundle="ca_objects_table" access="none"/>
+        <permission table="ca_loans" bundle="ca_occurrences" access="none"/>
+        <permission table="ca_loans" bundle="ca_occurrences_related_list" access="none"/>
+        <permission table="ca_loans" bundle="ca_places" access="none"/>
+        <permission table="ca_loans" bundle="ca_places_related_list" access="none"/>
+        <permission table="ca_loans" bundle="ca_storage_locations" access="none"/>
+        <permission table="ca_loans" bundle="ca_storage_locations_related_list" access="none"/>
+        <permission table="ca_loans" bundle="idno" access="none"/>
+        <permission table="ca_loans" bundle="ca_attribute_loan_authorization_date" access="none"/>
+        <permission table="ca_loans" bundle="ca_attribute_loan_conditions" access="none"/>
+        <permission table="ca_loans" bundle="loan_id" access="none"/>
+        <permission table="ca_loans" bundle="ca_attribute_loan_in_date" access="none"/>
+        <permission table="ca_loans" bundle="ca_attribute_loan_note" access="none"/>
+        <permission table="ca_loans" bundle="ca_attribute_loan_out_date" access="none"/>
+        <permission table="ca_loans" bundle="ca_attribute_loan_purpose" access="none"/>
+        <permission table="ca_loans" bundle="ca_attribute_loan_renewal_date" access="none"/>
+        <permission table="ca_loans" bundle="ca_attribute_loan_return_date" access="none"/>
+        <permission table="ca_loans" bundle="nonpreferred_labels" access="none"/>
+        <permission table="ca_loans" bundle="preferred_labels" access="none"/>
+        <permission table="ca_loans" bundle="rank" access="none"/>
+        <permission table="ca_loans" bundle="source_id" access="none"/>
+        <permission table="ca_loans" bundle="status" access="none"/>
+        <permission table="ca_movements" bundle="access" access="none"/>
+        <permission table="ca_movements" bundle="authority_references_list" access="none"/>
+        <permission table="ca_movements" bundle="ca_collections" access="none"/>
+        <permission table="ca_movements" bundle="ca_collections_related_list" access="none"/>
+        <permission table="ca_movements" bundle="ca_entities" access="none"/>
+        <permission table="ca_movements" bundle="ca_entities_related_list" access="none"/>
+        <permission table="ca_movements" bundle="ca_list_items" access="none"/>
+        <permission table="ca_movements" bundle="ca_list_items_related_list" access="none"/>
+        <permission table="ca_movements" bundle="ca_loans" access="none"/>
+        <permission table="ca_movements" bundle="ca_loans_related_list" access="none"/>
+        <permission table="ca_movements" bundle="ca_movements" access="none"/>
+        <permission table="ca_movements" bundle="ca_movements_related_list" access="none"/>
+        <permission table="ca_movements" bundle="ca_object_lots" access="none"/>
+        <permission table="ca_movements" bundle="ca_object_lots_related_list" access="none"/>
+        <permission table="ca_movements" bundle="ca_object_representations" access="none"/>
+        <permission table="ca_movements" bundle="ca_object_representations_related_list" access="none"/>
+        <permission table="ca_movements" bundle="ca_objects" access="none"/>
+        <permission table="ca_movements" bundle="ca_objects_related_list" access="none"/>
+        <permission table="ca_movements" bundle="ca_objects_table" access="none"/>
+        <permission table="ca_movements" bundle="ca_occurrences" access="none"/>
+        <permission table="ca_movements" bundle="ca_occurrences_related_list" access="none"/>
+        <permission table="ca_movements" bundle="ca_places" access="none"/>
+        <permission table="ca_movements" bundle="ca_places_related_list" access="none"/>
+        <permission table="ca_movements" bundle="ca_storage_locations" access="none"/>
+        <permission table="ca_movements" bundle="ca_storage_locations_related_list" access="none"/>
         <permission table="ca_movements" bundle="idno" access="none"/>
-        <permission table="ca_movements" bundle="status" access="none"/>
-        <permission table="ca_movements" bundle="rank" access="none"/>
+        <permission table="ca_movements" bundle="movement_id" access="none"/>
         <permission table="ca_movements" bundle="ca_attribute_movement_method" access="none"/>
         <permission table="ca_movements" bundle="ca_attribute_movement_note" access="none"/>
-        <permission table="ca_movements" bundle="ca_attribute_planned_removal_date" access="none"/>
-        <permission table="ca_movements" bundle="ca_attribute_removal_date" access="none"/>
         <permission table="ca_movements" bundle="ca_attribute_movement_reason" access="none"/>
-        <permission table="ca_movements" bundle="ca_object_representations" access="none"/>
-        <permission table="ca_movements" bundle="ca_objects" access="none"/>
-        <permission table="ca_movements" bundle="ca_object_lots" access="none"/>
-        <permission table="ca_movements" bundle="ca_entities" access="none"/>
-        <permission table="ca_movements" bundle="ca_occurrences" access="none"/>
-        <permission table="ca_movements" bundle="ca_places" access="none"/>
-        <permission table="ca_movements" bundle="ca_loans" access="none"/>
-        <permission table="ca_movements" bundle="ca_movements" access="none"/>
-        <permission table="ca_movements" bundle="ca_collections" access="none"/>
-        <permission table="ca_movements" bundle="ca_storage_locations" access="none"/>
-        <permission table="ca_movements" bundle="ca_list_items" access="none"/>
-        <permission table="ca_tours" bundle="preferred_labels" access="none"/>
-        <permission table="ca_tours" bundle="nonpreferred_labels" access="none"/>
-        <permission table="ca_tours" bundle="tour_id" access="none"/>
-        <permission table="ca_tours" bundle="tour_code" access="none"/>
-        <permission table="ca_tours" bundle="rank" access="none"/>
+        <permission table="ca_movements" bundle="nonpreferred_labels" access="none"/>
+        <permission table="ca_movements" bundle="ca_attribute_planned_removal_date" access="none"/>
+        <permission table="ca_movements" bundle="preferred_labels" access="none"/>
+        <permission table="ca_movements" bundle="rank" access="none"/>
+        <permission table="ca_movements" bundle="ca_attribute_removal_date" access="none"/>
+        <permission table="ca_movements" bundle="source_id" access="none"/>
+        <permission table="ca_movements" bundle="status" access="none"/>
+        <permission table="ca_object_representations" bundle="access" access="edit"/>
+        <permission table="ca_object_representations" bundle="authority_references_list" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_collections" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_collections_related_list" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_entities" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_entities_related_list" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_list_items" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_list_items_related_list" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_loans" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_loans_related_list" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_movements" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_movements_related_list" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_object_lots" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_object_lots_related_list" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_object_representation_captions" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_object_representations_media_display" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_object_representations_related_list" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_objects" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_objects_related_list" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_objects_table" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_occurrences" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_occurrences_related_list" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_places" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_places_related_list" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_representation_annotations" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_sets" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_sets_checklist" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_storage_locations" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_storage_locations_related_list" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_user_representation_annotations" access="edit"/>
+        <permission table="ca_object_representations" bundle="ca_attribute_caption" access="edit"/>
+        <permission table="ca_object_representations" bundle="idno" access="edit"/>
+        <permission table="ca_object_representations" bundle="locale_id" access="edit"/>
+        <permission table="ca_object_representations" bundle="md5" access="edit"/>
+        <permission table="ca_object_representations" bundle="media" access="edit"/>
+        <permission table="ca_object_representations" bundle="nonpreferred_labels" access="edit"/>
+        <permission table="ca_object_representations" bundle="original_filename" access="edit"/>
+        <permission table="ca_object_representations" bundle="preferred_labels" access="edit"/>
+        <permission table="ca_object_representations" bundle="rank" access="edit"/>
+        <permission table="ca_object_representations" bundle="representation_id" access="edit"/>
+        <permission table="ca_object_representations" bundle="source_id" access="edit"/>
+        <permission table="ca_object_representations" bundle="status" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="access" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="annotation_id" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="ca_collections_related_list" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="ca_entities" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="ca_entities_related_list" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="ca_list_items" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="ca_list_items_related_list" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="ca_loans_related_list" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="ca_movements_related_list" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="ca_object_lots_related_list" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="ca_object_representations_related_list" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="ca_objects" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="ca_objects_related_list" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="ca_objects_table" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="ca_occurrences" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="ca_occurrences_related_list" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="ca_places" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="ca_places_related_list" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="ca_representation_annotation_properties" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="ca_storage_locations_related_list" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="ca_attribute_caption" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="locale_id" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="nonpreferred_labels" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="preferred_labels" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="preview" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="status" access="edit"/>
+        <permission table="ca_representation_annotations" bundle="user_id" access="edit"/>
+        <permission table="ca_sets" bundle="access" access="edit"/>
+        <permission table="ca_sets" bundle="ca_set_items" access="edit"/>
+        <permission table="ca_sets" bundle="ca_user_groups" access="edit"/>
+        <permission table="ca_sets" bundle="ca_users" access="edit"/>
+        <permission table="ca_sets" bundle="preferred_labels" access="edit"/>
+        <permission table="ca_sets" bundle="rank" access="edit"/>
+        <permission table="ca_sets" bundle="ca_attribute_set_chron_date_element_code" access="edit"/>
+        <permission table="ca_sets" bundle="set_code" access="edit"/>
+        <permission table="ca_sets" bundle="ca_attribute_set_description" access="edit"/>
+        <permission table="ca_sets" bundle="set_id" access="edit"/>
+        <permission table="ca_sets" bundle="ca_attribute_set_presentation_type" access="edit"/>
+        <permission table="ca_sets" bundle="status" access="edit"/>
+        <permission table="ca_set_items" bundle="ca_attribute_caption" access="edit"/>
+        <permission table="ca_set_items" bundle="item_id" access="edit"/>
+        <permission table="ca_set_items" bundle="nonpreferred_labels" access="edit"/>
+        <permission table="ca_set_items" bundle="preferred_labels" access="edit"/>
+        <permission table="ca_set_items" bundle="row_id" access="edit"/>
+        <permission table="ca_set_items" bundle="ca_attribute_set_item_description" access="edit"/>
+        <permission table="ca_set_items" bundle="ca_attribute_set_item_is_primary" access="edit"/>
+        <permission table="ca_set_items" bundle="table_num" access="edit"/>
+        <permission table="ca_lists" bundle="ca_attribute_adlibObjectNummer" access="edit"/>
+        <permission table="ca_lists" bundle="default_sort" access="edit"/>
+        <permission table="ca_lists" bundle="is_hierarchical" access="edit"/>
+        <permission table="ca_lists" bundle="is_system_list" access="edit"/>
+        <permission table="ca_lists" bundle="list_code" access="edit"/>
+        <permission table="ca_lists" bundle="list_id" access="edit"/>
+        <permission table="ca_lists" bundle="nonpreferred_labels" access="edit"/>
+        <permission table="ca_lists" bundle="preferred_labels" access="edit"/>
+        <permission table="ca_lists" bundle="use_as_vocabulary" access="edit"/>
+        <permission table="ca_list_items" bundle="access" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_attribute_adlibObjectNummer" access="edit"/>
+        <permission table="ca_list_items" bundle="authority_references_list" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_collections" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_collections_related_list" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_entities" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_entities_related_list" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_list_items" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_list_items_related_list" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_loans" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_loans_related_list" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_movements" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_movements_related_list" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_object_lots" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_object_lots_related_list" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_object_representations" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_object_representations_related_list" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_objects" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_objects_related_list" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_objects_table" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_occurrences" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_occurrences_related_list" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_places" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_places_related_list" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_sets" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_sets_checklist" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_storage_locations" access="edit"/>
+        <permission table="ca_list_items" bundle="ca_storage_locations_related_list" access="edit"/>
+        <permission table="ca_list_items" bundle="color" access="edit"/>
+        <permission table="ca_list_items" bundle="hierarchy_location" access="edit"/>
+        <permission table="ca_list_items" bundle="hierarchy_navigation" access="edit"/>
+        <permission table="ca_list_items" bundle="icon" access="edit"/>
+        <permission table="ca_list_items" bundle="idno" access="edit"/>
+        <permission table="ca_list_items" bundle="is_default" access="edit"/>
+        <permission table="ca_list_items" bundle="is_enabled" access="edit"/>
+        <permission table="ca_list_items" bundle="item_id" access="edit"/>
+        <permission table="ca_list_items" bundle="item_value" access="edit"/>
+        <permission table="ca_list_items" bundle="nonpreferred_labels" access="edit"/>
+        <permission table="ca_list_items" bundle="preferred_labels" access="edit"/>
+        <permission table="ca_list_items" bundle="rank" access="edit"/>
+        <permission table="ca_list_items" bundle="settings" access="edit"/>
+        <permission table="ca_list_items" bundle="source_id" access="edit"/>
+        <permission table="ca_list_items" bundle="status" access="edit"/>
+        <permission table="ca_tours" bundle="access" access="none"/>
+        <permission table="ca_tours" bundle="ca_tour_stops_list" access="none"/>
         <permission table="ca_tours" bundle="color" access="none"/>
         <permission table="ca_tours" bundle="icon" access="none"/>
-        <permission table="ca_tours" bundle="access" access="none"/>
+        <permission table="ca_tours" bundle="nonpreferred_labels" access="none"/>
+        <permission table="ca_tours" bundle="preferred_labels" access="none"/>
+        <permission table="ca_tours" bundle="rank" access="none"/>
+        <permission table="ca_tours" bundle="source_id" access="none"/>
         <permission table="ca_tours" bundle="status" access="none"/>
+        <permission table="ca_tours" bundle="tour_code" access="none"/>
         <permission table="ca_tours" bundle="ca_attribute_tour_description" access="none"/>
-        <permission table="ca_tours" bundle="ca_tour_stops_list" access="none"/>
-        <permission table="ca_tour_stops" bundle="preferred_labels" access="none"/>
+        <permission table="ca_tours" bundle="tour_id" access="none"/>
+        <permission table="ca_tour_stops" bundle="access" access="none"/>
+        <permission table="ca_tour_stops" bundle="ca_collections" access="none"/>
+        <permission table="ca_tour_stops" bundle="ca_collections_related_list" access="none"/>
+        <permission table="ca_tour_stops" bundle="ca_entities" access="none"/>
+        <permission table="ca_tour_stops" bundle="ca_entities_related_list" access="none"/>
+        <permission table="ca_tour_stops" bundle="ca_list_items" access="none"/>
+        <permission table="ca_tour_stops" bundle="ca_list_items_related_list" access="none"/>
+        <permission table="ca_tour_stops" bundle="ca_loans_related_list" access="none"/>
+        <permission table="ca_tour_stops" bundle="ca_movements_related_list" access="none"/>
+        <permission table="ca_tour_stops" bundle="ca_object_lots_related_list" access="none"/>
+        <permission table="ca_tour_stops" bundle="ca_object_representations_related_list" access="none"/>
+        <permission table="ca_tour_stops" bundle="ca_objects" access="none"/>
+        <permission table="ca_tour_stops" bundle="ca_objects_related_list" access="none"/>
+        <permission table="ca_tour_stops" bundle="ca_objects_table" access="none"/>
+        <permission table="ca_tour_stops" bundle="ca_occurrences" access="none"/>
+        <permission table="ca_tour_stops" bundle="ca_occurrences_related_list" access="none"/>
+        <permission table="ca_tour_stops" bundle="ca_places" access="none"/>
+        <permission table="ca_tour_stops" bundle="ca_places_related_list" access="none"/>
+        <permission table="ca_tour_stops" bundle="ca_storage_locations_related_list" access="none"/>
+        <permission table="ca_tour_stops" bundle="ca_tour_stops" access="none"/>
+        <permission table="ca_tour_stops" bundle="color" access="none"/>
+        <permission table="ca_tour_stops" bundle="hierarchy_location" access="none"/>
+        <permission table="ca_tour_stops" bundle="hierarchy_navigation" access="none"/>
+        <permission table="ca_tour_stops" bundle="icon" access="none"/>
+        <permission table="ca_tour_stops" bundle="idno" access="none"/>
         <permission table="ca_tour_stops" bundle="nonpreferred_labels" access="none"/>
+        <permission table="ca_tour_stops" bundle="preferred_labels" access="none"/>
+        <permission table="ca_tour_stops" bundle="rank" access="none"/>
+        <permission table="ca_tour_stops" bundle="status" access="none"/>
         <permission table="ca_tour_stops" bundle="stop_id" access="none"/>
         <permission table="ca_tour_stops" bundle="tour_id" access="none"/>
-        <permission table="ca_tour_stops" bundle="idno" access="none"/>
-        <permission table="ca_tour_stops" bundle="color" access="none"/>
-        <permission table="ca_tour_stops" bundle="icon" access="none"/>
-        <permission table="ca_tour_stops" bundle="rank" access="none"/>
-        <permission table="ca_tour_stops" bundle="access" access="none"/>
-        <permission table="ca_tour_stops" bundle="status" access="none"/>
         <permission table="ca_tour_stops" bundle="ca_attribute_tour_stop_description" access="none"/>
         <permission table="ca_tour_stops" bundle="ca_attribute_tour_stop_georeference" access="none"/>
-        <permission table="ca_tour_stops" bundle="ca_objects" access="none"/>
-        <permission table="ca_tour_stops" bundle="ca_entities" access="none"/>
-        <permission table="ca_tour_stops" bundle="ca_places" access="none"/>
-        <permission table="ca_tour_stops" bundle="ca_occurrences" access="none"/>
-        <permission table="ca_tour_stops" bundle="ca_collections" access="none"/>
-        <permission table="ca_tour_stops" bundle="ca_tour_stops" access="none"/>
-        <permission table="ca_tour_stops" bundle="ca_list_items" access="none"/>
-        <permission table="ca_tour_stops" bundle="hierarchy_navigation" access="none"/>
-        <permission table="ca_tour_stops" bundle="hierarchy_location" access="none"/>
-        <permission table="ca_object_representations" bundle="preferred_labels" access="edit"/>
-        <permission table="ca_object_representations" bundle="nonpreferred_labels" access="edit"/>
-        <permission table="ca_object_representations" bundle="representation_id" access="edit"/>
-        <permission table="ca_object_representations" bundle="locale_id" access="edit"/>
-        <permission table="ca_object_representations" bundle="idno" access="edit"/>
-        <permission table="ca_object_representations" bundle="media" access="edit"/>
-        <permission table="ca_object_representations" bundle="md5" access="edit"/>
-        <permission table="ca_object_representations" bundle="original_filename" access="edit"/>
-        <permission table="ca_object_representations" bundle="access" access="edit"/>
-        <permission table="ca_object_representations" bundle="status" access="edit"/>
-        <permission table="ca_object_representations" bundle="rank" access="edit"/>
-        <permission table="ca_object_representations" bundle="ca_attribute_caption" access="edit"/>
-        <permission table="ca_object_representations" bundle="ca_objects" access="edit"/>
-        <permission table="ca_object_representations" bundle="ca_entities" access="edit"/>
-        <permission table="ca_object_representations" bundle="ca_places" access="edit"/>
-        <permission table="ca_object_representations" bundle="ca_occurrences" access="edit"/>
-        <permission table="ca_object_representations" bundle="ca_representation_annotations" access="edit"/>
-        <permission table="ca_object_representations" bundle="ca_list_items" access="edit"/>
-        <permission table="ca_object_representations" bundle="ca_sets" access="edit"/>
-        <permission table="ca_object_representations" bundle="ca_loans" access="edit"/>
-        <permission table="ca_object_representations" bundle="ca_movements" access="edit"/>
-        <permission table="ca_object_representations" bundle="ca_object_lots" access="edit"/>
-        <permission table="ca_object_representations" bundle="ca_object_representations_media_display" access="edit"/>
-        <permission table="ca_object_representations" bundle="ca_object_representation_captions" access="edit"/>
-        <permission table="ca_representation_annotations" bundle="preferred_labels" access="edit"/>
-        <permission table="ca_representation_annotations" bundle="nonpreferred_labels" access="edit"/>
-        <permission table="ca_representation_annotations" bundle="annotation_id" access="edit"/>
-        <permission table="ca_representation_annotations" bundle="locale_id" access="edit"/>
-        <permission table="ca_representation_annotations" bundle="user_id" access="edit"/>
-        <permission table="ca_representation_annotations" bundle="preview" access="edit"/>
-        <permission table="ca_representation_annotations" bundle="access" access="edit"/>
-        <permission table="ca_representation_annotations" bundle="status" access="edit"/>
-        <permission table="ca_representation_annotations" bundle="ca_attribute_caption" access="edit"/>
-        <permission table="ca_representation_annotations" bundle="ca_objects" access="edit"/>
-        <permission table="ca_representation_annotations" bundle="ca_entities" access="edit"/>
-        <permission table="ca_representation_annotations" bundle="ca_places" access="edit"/>
-        <permission table="ca_representation_annotations" bundle="ca_occurrences" access="edit"/>
-        <permission table="ca_representation_annotations" bundle="ca_representation_annotation_properties" access="edit"/>
-        <permission table="ca_representation_annotations" bundle="ca_list_items" access="edit"/>
       </bundleLevelAccessControl>
     </role>
     <role code="cataloguer">
