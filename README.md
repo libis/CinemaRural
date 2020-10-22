@@ -14,7 +14,10 @@ The Cinema Rural Film Database currently uses [Collective Access 1.7.6](https://
 Instructions for installing a CA with an external profile are available at the [CA Wiki](https://docs.collectiveaccess.org/wiki/Installation_profile).
 
 ## CSV Import Script & Template
-For the purpose of uploading data exports from other memory institutions about rural films, a CSV import script and template have been developed. The import script uses a CA-specific language and is recorded in a spreadsheet that can uploaded in CA: [CA CSV Import Script v1.0](https://github.com/libis/CinemaRural/blob/master/CA%20Import%20Script.xlsx). More information about the syntax used is available at the [CA Wiki](https://docs.collectiveaccess.org/wiki/Data_Importer#Overview)  
+For the purpose of uploading data exports from other memory institutions about rural films, a CSV import script and template have been developed. The import script uses a CA-specific language and is recorded in a spreadsheet that you have to upload in CA: [CA CSV Import Script v1.0](https://github.com/libis/CinemaRural/blob/master/CA%20Import%20Script.xlsx). More information about the syntax used is available at the [CA Wiki](https://docs.collectiveaccess.org/wiki/Data_Importer#Overview). The script requires the use of the following CSV template: [CinemaRuralCsvImportTemplate](https://github.com/libis/CinemaRural/blob/master/CinemaRuralCsvImportTemplate.csv).  
 
 ## EBUCORE Export Script
+For the purpose of sharing data from the Cinema Rural Film Database with other organisations, an EBUCORE export script has been developed. This export script also uses a CA-specific language and is recorded in a spreadsheet that you have to upload in CA:  [CinemaRuralEbucoreExportScript-v1.0](https://github.com/libis/CinemaRural/blob/master/CinemaRuralEbucoreExportScript-v1.0.xlsx). More information about the syntax used is availbale at the [CA Wiki](https://docs.collectiveaccess.org/wiki/Data_Exporter).
+
 ## Cinema Rural OAI-PMH Endpoint
+For the purpose of enabling synchronisation of data between the Cinema Rural Film Database and other film databases, an OAI-PMH endpoint has been configured on top of the CA database. 
