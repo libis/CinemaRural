@@ -11,8 +11,10 @@ The repository contains the Collective Access Installation Profile for the catal
 
 ## Collective Access Installation Profile
 The Cinema Rural Film Database currently uses [Collective Access 1.7.6](https://collectiveaccess.org/) (CA) as a cataloguig tool. CA uses a cataloguing profile that was developed specifically for this database: [cinema_rural.xml](https://github.com/libis/CinemaRural/blob/master/cinema_rural.xml). 
-Instructions for installing a CA with an external profile are available on the [CA Wiki](https://docs.collectiveaccess.org/wiki/Installation_profile).
+Instructions for installing a CA with an external profile are available at the [CA Wiki](https://docs.collectiveaccess.org/wiki/Installation_profile).
 
 ## CSV Import Script & Template
+For the purpose of uploading data exports from other memory institutions about rural films, a CSV import script and template have been developed. The import script uses a CA-specific language and is recorded in a spreadsheet that can uploaded in CA: [CA CSV Import Script v1.0](https://github.com/libis/CinemaRural/blob/master/CA%20Import%20Script.xlsx). More information about the syntax used is available at the [CA Wiki](https://docs.collectiveaccess.org/wiki/Data_Importer#Overview)  
+
 ## EBUCORE Export Script
 ## Cinema Rural OAI-PMH Endpoint
