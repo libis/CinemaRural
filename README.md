@@ -9,8 +9,6 @@ The project aims to record agricultural film heritage, to safeguard it and make 
 
 The repository contains the Collective Access Installation Profile for the cataloguing tool that feeds the Cinema Rural Film Database, including import and export scripts, and all information about the OAI-PMH endpoint that enables re-use of metadata from the Cinema Rural Film Database in other catalogues.
 
-A complete overview of the mapping between the database, the import and export scripts and the EBUCORE export format is available in this online spreadsheet: [Cinema Rural Data Model and Mapping Table](https://docs.google.com/spreadsheets/d/1mjjLDnkm05h_lIGM8U8Kw8yWHxSmbJn03KXd9yGjalY). This is a 'living' document. We try to keep this document in line with the scripts and templates in this repository.
-
 ## Collective Access Installation Profile
 The Cinema Rural Film Database currently uses [Collective Access 1.7.6](https://collectiveaccess.org/) (CA) as a cataloguig tool. CA uses a cataloguing profile that was developed specifically for this database: [cinema_rural.xml](https://github.com/libis/CinemaRural/blob/master/cinema_rural.xml). 
 
@@ -33,10 +31,10 @@ For the purpose of enabling synchronisation of data between the Cinema Rural Fil
 
 Documentation about the syntax of the OAI-PMH protocol is available at http://www.openarchives.org/OAI/openarchivesprotocol.html.
 
-The base URL for the endpoint is: https://www.hetvirtueleland.be/ca_cag_17_test/service.php/OAI/ebucore_cag_film/request
+The base URL for the endpoint is: https://www.hetvirtueleland.be/ca_cag/service.php/OAI/ebucore_cag_film/request.
 
 * A list of all identifiers for the records available: https://www.hetvirtueleland.be/ca_cag/service.php/OAI/ebucore_cag_film/request?verb=ListIdentifiers
 * A full harvest of all records: https://www.hetvirtueleland.be/ca_cag/service.php/OAI/ebucore_cag_film/request?verb=ListRecords
 * An example of a GetRecord request: https://www.hetvirtueleland.be/ca_cag/service.php/OAI/ebucore_cag_film/request?verb=GetRecord&identifier=oai:oai.cag:1
 
-The &metadataPrefix allow you to define the result format. Default result format is: metadataPrefix=ebucore
+The &metadataPrefix allow you to define the result format. Default result format is: &metadataPrefix=ebucore.
