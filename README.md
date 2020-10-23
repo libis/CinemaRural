@@ -9,6 +9,8 @@ The project aims to record agricultural film heritage, to safeguard it and make 
 
 The repository contains the Collective Access Installation Profile for the cataloguing tool that feeds the Cinema Rural Film Database, including import and export scripts, and all information about the OAI-PMH endpoint that enables re-use of metadata from the Cinema Rural Film Database in other catalogues.
 
+A complete overview of the mapping between the database, the import and export scripts and the EBUCORE export format is available in this online spreadsheet: [Cinema Rural Data Model and Mapping Table](https://docs.google.com/spreadsheets/d/1mjjLDnkm05h_lIGM8U8Kw8yWHxSmbJn03KXd9yGjalY). This is a 'living' document. We try to keep this document in line with the scripts and templates in this repository.
+
 ## Collective Access Installation Profile
 The Cinema Rural Film Database currently uses [Collective Access 1.7.6](https://collectiveaccess.org/) (CA) as a cataloguig tool. CA uses a cataloguing profile that was developed specifically for this database: [cinema_rural.xml](https://github.com/libis/CinemaRural/blob/master/cinema_rural.xml). 
 
