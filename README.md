@@ -35,6 +35,6 @@ The base URL for the endpoint is: https://www.hetvirtueleland.be/ca_cag/service.
 
 * A list of all identifiers for the records available: https://www.hetvirtueleland.be/ca_cag/service.php/OAI/ebucore_cag_film/request?verb=ListIdentifiers
 * A full harvest of all records: https://www.hetvirtueleland.be/ca_cag/service.php/OAI/ebucore_cag_film/request?verb=ListRecords
-* An example of a GetRecord request: https://www.hetvirtueleland.be/ca_cag/service.php/OAI/ebucore_cag_film/request?verb=GetRecord&identifier=oai:oai.cag:1
+* An example of a GetRecord request: https://www.hetvirtueleland.be/ca_cag/service.php/OAI/ebucore_cag_film/request?verb=GetRecord&identifier=oai:oai.cag:38790
 
 The &metadataPrefix allow you to define the result format. Default result format is: &metadataPrefix=ebucore.
