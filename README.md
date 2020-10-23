@@ -38,3 +38,13 @@ The base URL for the endpoint is: https://www.hetvirtueleland.be/ca_cag/service.
 * An example of a GetRecord request: https://www.hetvirtueleland.be/ca_cag/service.php/OAI/ebucore_cag_film/request?verb=GetRecord&identifier=oai:oai.cag:38790
 
 The &metadataPrefix allow you to define the result format. Default result format is: &metadataPrefix=ebucore.
+
+## Contact
+
+* Sven Lefèvre, CAG (sven.lefevre@cagnet.be)
+* Diantha Ossweijer, CAG (diantha.osseweijer@cagnet.be)
+* Valérie Adriaens, LIBIS (valerie.adriaens@kuleuven.be )
+* Bert Lemmens, meemoo (bert.lemmens@meemoo.be)
+
+
+
