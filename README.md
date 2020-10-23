@@ -33,8 +33,8 @@ Documentation about the syntax of the OAI-PMH protocol is available at http://ww
 
 The base URL for the endpoint is: https://www.hetvirtueleland.be/ca_cag/service.php/OAI/ebucore_cag_film/request.
 
-* A list of all identifiers for the records available: https://www.hetvirtueleland.be/ca_cag/service.php/OAI/ebucore_cag_film/request?verb=ListIdentifiers
-* A full harvest of all records: https://www.hetvirtueleland.be/ca_cag/service.php/OAI/ebucore_cag_film/request?verb=ListRecords
+* A list of all identifiers for the film records available: https://www.hetvirtueleland.be/ca_cag/service.php/OAI/ebucore_cag_film/request?verb=ListIdentifiers&set=34668
+* A full harvest of all film records: https://www.hetvirtueleland.be/ca_cag/service.php/OAI/ebucore_cag_film/request?verb=ListRecords&set=34668
 * An example of a GetRecord request: https://www.hetvirtueleland.be/ca_cag/service.php/OAI/ebucore_cag_film/request?verb=GetRecord&identifier=oai:oai.cag:38790
 
 The &metadataPrefix allow you to define the result format. Default result format is: &metadataPrefix=ebucore.
