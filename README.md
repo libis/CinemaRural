@@ -39,6 +39,13 @@ The base URL for the endpoint is: https://www.hetvirtueleland.be/ca_cag/service.
 
 The &metadataPrefix allow you to define the result format. Default result format is: &metadataPrefix=ebucore.
 
+## Data profile OSLO JSON-LD
+In this [file](https://docs.google.com/spreadsheets/d/14escejPSMddTYVMz9mh_Tj9ciXysNaMrAtNk5L6zZMk/edit#gid=0) you will find a mapping between:
+- metadata fields from CollectiveAccess;
+- a translation to Ebucore xml;
+- the CAG and OSLO pattern that translates the metadata into CAG and OSLO entities and properties; 
+- the encoding to a json ld sample.
+
 ## Contact
 
 * Sven Lefèvre, CAG (sven.lefevre@cagnet.be)
